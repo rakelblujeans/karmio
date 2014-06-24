@@ -1,0 +1,594 @@
+/*********SADIA GULZAR 02-22-2012 sadiagulzar.vu@gmail.com**********/
+*{ margin:0 0 0 0; padding:0 0 0 0;}
+body{ background:; width:100%; color:#000000;font-size:12px; 
+font-family:Arial, Helvetica, sans-serif;}
+/*******Site Main Structure******/
+#Header{width:100%; float:left;}
+#Header .CenterAlign{width:1000px; margin:0 auto;}
+#Header .HundredPercent{width:100%; float:left; padding:22px 0 0 0; height:104px;}
+
+#Navigation{width:100%; float:left;height:42px;background:url(../images/NavigationBg.png) repeat-x top left; position:relative;}
+#Navigation .CenterAlign{width:1000px; margin:0 auto;}
+#Navigation .HundredPercent{width:100%; float:left; height:42px; overflow:hidden;}
+
+#MainBody{width:100%; float:left; min-height:500px; position:absolute; top:30px;}
+#MainBody .CenterAlign{width:1000px; margin:0 auto;}
+#MainBody .HundredPercent{width:100%; float:left;}
+
+#MainBody2{width:100%; float:left; min-height:500px;}
+#MainBody2 .CenterAlign{width:1000px; margin:0 auto;}
+#MainBody2 .HundredPercent{width:100%; float:left;}
+
+#ContentBody{width:100%; float:left; min-height:500px; padding:30px 0;}
+#ContentBody .CenterAlign{width:1000px; margin:0 auto;}
+#ContentBody .HundredPercent{width:100%; float:left;}
+
+#Footer{width:100%; float:left;height:38px; background-color:#868686; position:relative; bottom:0px;}
+#Footer .CenterAlign{width:1000px; margin:0 auto;}
+#Footer .HundredPercent{width:100%; float:left; height:38px; overflow:hidden;}
+/******Header*****/
+#CompanyLogo{ float:left; width:250px;}
+/*****Menu Items****/
+#Navigation .NavNewsletter{ position:absolute; top:0px; left:0px;}
+#Navigation .NavMenu{ position:absolute; top:0px; left:20%;}
+#Navigation .NavAboutUs{ position:absolute; top:0px; right:0px;}
+#Navigation ul.Menu{float:left; /*width:99%;*/list-style-type:none;margin:0;padding:0;font-family:Helvetica;
+font-size:13px;/*border-right:1px solid #000000;*/}
+#Navigation ul.Menu li{float:left;display:inline;padding:0px 10px;margin:0;/*border-left:1px solid #000000;*/}
+#Navigation ul.Menu li a{display:block; text-decoration:none; color:#FFFFFF; padding:13px 20px; font-weight:bold;}
+#Navigation ul.Menu li a:hover{color:#000000;}
+#Navigation ul.Menu li a.selected{color:#000000;}
+
+/*#Footer .BtmNavMenu{ position:absolute; bottom:0px; left:20%;}*/
+#Footer ul.BtmMenu{float:none; width:45%; list-style-type:none;margin:0 auto;padding:0;font-family:Helvetica;
+font-size:13px;}
+#Footer ul.BtmMenu li{float:left;display:inline;padding:0px 10px;margin:0;}
+#Footer ul.BtmMenu li a{display:block; text-decoration:none; color:#FFFFFF; padding:13px 25px; font-weight:bold;}
+#Footer ul.BtmMenu li a:hover{color:#000000;}
+#Footer ul.BtmMenu li a.selected{color:#000000;}
+
+.RightSocialIcon{float:right; display:inline-block;}
+.RightSocialIcon ul{float:none;padding:0 9px 0 0;margin:0;list-style-type:none;display:table-cell;height:104px;
+ vertical-align:bottom;}
+.RightSocialIcon ul li{float:left;padding:0px;margin:0 2px;display:inline;}
+.RightSocialIcon ul li a{color:#FFFFFF;text-decoration:none;}
+
+/****Home Page Contents***/
+#HomePage .Row{ float:left; width:100%; padding:10px 0px 5px 0px;}
+
+.DealBox{display:block; float:right; clear:right; width:391px; margin:0 0 70px 0;}
+.DealBox .DealBoxTop{display:block;clear:both;background:url(../images/DealBoxTop.png) no-repeat; height:24px;}
+.DealBox .DealBoxMid{display:block;clear:both;background:url(../images/DealBoxMid.png) repeat-y; min-height:95px;
+ padding:0px 9px 0 8px;width: 374px; float:left;}
+ 
+ .DealBox .DealBoxMid h2{ font-family:HelveticaNeue-CondensedBold; font-size:14px; color:#f23a3b; display:block; margin: 16px 0px; text-align:center; line-height:26px;}
+ .DealBox .DealBoxMid a{ display:block;}
+ 
+.DealBox .DealBoxBottom{display:block;clear:both;background:url(../images/DealBoxBottom.png) left bottom no-repeat; height:22px;}
+
+.DealBox .DealBoxRedTop{display:block;clear:both;background:url(../images/RedTop.png) 0 0 repeat-x;float: left;
+margin:-3px 0 -5px 0;width: 100%;height:8px;}
+.DealBox .DealBoxRedMid{display:block;clear:both;background:url(../images/RedLeft.png) 0px 3px repeat-y;float: left;width: 374px;}
+.DealBox .DealBoxRedBottom{display:block;clear:both;background:url(../images/RedBottom.png) repeat-x;height:8px;
+position: relative;width: 100%;z-index: 10;}
+.DealBox .RedBoxContents{background:#f33b3c;display:block;float:left;height:80px; position:relative; z-index:10;
+padding:20px 25px 20px 35px;width:328px;margin:-3px 0 -5px -3px; color:#FFFFFF;background:url(../images/RedBox.png) no-repeat;}
+
+.DealBox .CouponPrice{display:inline-block; clear:left; font-size:20px; font-weight:bold;}
+.DealBox .CouponPriceLarge{display:inline-block; clear:left; font-size:32px; font-weight:bold;}
+.DealBox .CouponDetail{float:right; display:inline-block; font-weight:normal; font-size:12px; padding:3px 0 0 0;}
+.DealBox .CouponTitle{ font-size:20px; color:#fff; margin:0px; padding:0px; text-align:center; line-height:30px; font-family:Georgia;}
+.DealBox .CouponTitleEntry{ opacity:0.3; font-size:20px; color:#fff; margin:0px; padding:0px; text-align:center; line-height:30px; font-family:Helvetica; border-bottom:2px dashed #fff;}
+.DealBox .ShadowTextBox{width:318px;height:25px; float:left;font-size:16px;font-family:Helvetica;
+background:url(../images/TextBoxShadow.png) repeat-x; padding:6px 5px; text-align:center; font-weight:bold;color:#979797;}
+
+.DealBox .CouponTotalPrice{margin:25px 10px 10px 20px;display:inline-block; clear:left; font-size:30px; font-weight:bold; text-align:center;color:#fb3f36;}
+.DealBox .CouponTotalPrice .CouponDetailPrice{font-weight:normal;font-size:12px;padding:3px 0 0 0;clear:both;display: block;}
+
+.DealBox ul.CouponSaving{list-style-type:none;margin:0 20px 20px 0;padding:0; display:inline-block; float:right;}
+.DealBox ul.CouponSaving li{margin:0;padding:0;display:block;float:none;color:#979797;font-size:12px;clear:both;}
+.DealBox ul.CouponSaving li span{margin:0;padding:0;display:block;color:#1b1b1b;font-size:18px;font-weight:bold;clear:both;}
+.DealBox ul.CouponSaving li p{margin:0;padding:0;display:block;color:#1b1b1b;font-size:12px; line-height:37px;clear:both;}
+
+.DealBox .TopBox{clear:both;color:#000000;float:left; margin:10px 20px; border-bottom:1px solid #000000; display:block; width:332px; min-height:154px;}
+.DealBox .TopBox h1{ font-size:30px; font-weight:bold; font-family:helveticalt85heavy_0;}
+.DealBox .TopBox p{ font-size:13px; display:block; clear:both; float:left; padding:10px 0;font-family:helvetica; width:100%;}
+.DealBox .TopBox a.FinePrint{ float:right; font-size:12px;}
+
+.DealBox a.BuyButton{text-align:center;display:table;clear:both;width:162px;height:33px; margin:35px auto 30px auto;}
+/******************** Form Page Css Started ***********************/
+.FBGIMG{ background-image:url(../images/Backgrounds/FormBG.jpg);}
+
+.BForm{ float:left; margin:35px 0px; font-size:12px;}
+.BForm h1{ text-align:center; font-size:18px; font-weight:bold; width:1000px; margin-bottom:30px;}
+.BForm .FormLeftSide{ float:left; width:450px;}
+.BForm .FormLeftSide h2{ text-align:left; font-weight:bold; font-size:14px; margin:5px 0px 15px;} 
+
+.BForm .FormRightSide{ float:right; width:450px;}
+.BForm .FormRightSide h2{ text-align:left; font-weight:bold; font-size:14px; margin:5px 0px 15px;} 
+
+.FormLeftSide b{ display:block;}
+a.form_btn{ display:block; float:right; margin:48px 0px 0px;}
+
+.Fieldset{ padding:1px; border:1px solid #a6a6a6; height:21px; width:413px; color:#000; display:block; margin:3px 0 5px;}
+.Fieldset2{ padding:1px; border:1px solid #a6a6a6; height:21px; width:203px; color:#000; display:inline-block; margin:3px 0 5px;}
+.Fieldset3{ padding:1px; border:1px solid #a6a6a6; height:21px; width:46px; color:#000; display:inline-block; margin:3px 0 5px;}
+.Fieldset4{ padding:1px; border:1px solid #a6a6a6; height:21px; width:123px; color:#000; display:inline-block; margin:3px 0 5px;}
+.Field1{ padding:1px; border:1px solid #a6a6a6; height:16px; width:180px; color:#000; display:inline-block; margin:2px 0 10px;}
+.Field2{ padding:1px; border:1px solid #a6a6a6; height:16px; width:35px; color:#000; display:inline-block; margin:2px 0 10px;}
+.Field3{ padding:1px; border:1px solid #a6a6a6; height:16px; width:55px; color:#000; display:inline-block; margin:2px 0 10px;}
+.BuyFormSpacer{ float:left; margin:0 60px 0 0;}
+.sel-form{ 
+	background: none repeat scroll 0 0 #ededed;
+    border: 1px solid #9c9c9c;
+    border-radius: 5px 0 0 5px;
+    color: #656565;
+    padding: 2px;
+	margin:2px 7px 10px 0px;
+}
+.sel-form option{
+	padding:0 6px;
+}
+/******************** Form Page Css Ended ***********************/
+
+/******************** Create a Deal Page Css ***********************/
+.BGIMG{ background-image: url(../images/Backgrounds/bg_004.jpg);}
+
+.InputPrice{ font-size:14px !important; font-weight:bold !important; color:#000 !important; line-height:27px; }
+.RedInputPrice{ font-size:14px !important; font-weight:bold !important; color:#fff !important; line-height:27px; }
+
+.CreateDeal{ width:1059px; padding:35px 0 0;}
+.CreateDeal .TopImage{background-image:url(../images/create_a_deal_topbg.png); background-repeat:no-repeat; height:16px; width:100%;}
+.CreateDeal .MiddleImage{background-image:url(../images/create_a_deal_mbg.png); background-repeat: repeat-y; width:100%; height:480px;}
+.CreateDeal .BottomImage{background-image:url(../images/create_a_deal_btmbg.png); background-repeat:no-repeat; height:16px; width:100%;}
+
+.CreateDeal .TabStyle{ width:612px;}
+
+.CreateDeal .BuyPage{ width:595px; position:relative; height:460px;}
+
+.CreateDeal .BuyPage .LeftSide{ position:absolute; left:50px; bottom:10px;}
+.CreateDeal .BuyPage .RightSide{ position:absolute; right:15px; top:32px;}
+
+.CreateDeal .BuyPage .RightSide .BuyForm{
+	width:400px;
+}
+.CreateDeal .BuyPage .RightSide .BuyForm h1{
+	font-size:36px;
+	color:#d3d3d3;
+	font-family:HelveticaNeue-Bold;
+	display:inline-block;
+}
+
+.CreateDeal .BuyPage .RightSide .BuyForm .Sect01{
+	width:100%;
+}
+
+.CreateDeal .BuyPage .RightSide .BuyForm .Sect01 h2{
+	color:#000;
+	font-family:HelveticaNeue-Bold;
+	font-size:16px;
+	margin:25px 0 10px;
+}
+
+.CreateDeal .BuyPage .RightSide .BuyForm .Sect01 label{
+	color:#000;
+	font-family:HelveticaNeue-Bold;
+	font-size:12px;
+	display:block;
+}
+
+.RedFont{ color:#f23a3b !important; font-size:30px;}
+.Marg{ margin:0px 15px 0px 0px;}
+
+.RedButton{
+	background-image: url("../images/red_blank_button.png");
+    background-repeat: no-repeat;
+    color: #FFFFFF !important;
+    display: block;
+    font-family: HelveticaNeue;
+    font-size: 13px;
+    height: 34px;
+    line-height: 34px;
+    width: 224px;
+}
+.NetworkGood{
+	background:url(../images/logo_network_for_good.png) center top no-repeat transparent;
+	height:35px;
+	width:380px;
+}
+/**********************************Tabbed Menu Strat******************************/
+
+ul.tabs
+{
+    padding: 7px 0;
+    font-size: 0;
+    margin:0;
+    list-style-type: none;
+	height:40px;
+    text-align: center; /*set to left, center, or right to align the tabs as desired*/
+}       
+ul.tabs li
+{
+    list-style:none; font-family:Helvetica; font-size:14px; color:#b0adac; display:inline-block; text-transform:capitalize; width:60px; margin:0px 0px 0px 50px; padding:0px 0px 7px;text-align:center; float:left;
+    /*margin-right:3px;*/ /*distance between tabs*/
+}       
+ul.tabs li a
+{
+    position: relative;
+    z-index: 1;
+    text-decoration:none; 
+	color:#b0adac; 
+	font-size:12px;
+	font-weight:bold; 
+	text-align:center;
+    outline:none;
+}        
+ul.tabs li a:visited
+{
+	text-decoration:underline;
+}      
+ul.tabs li a:hover
+{
+	color:#000;
+}
+ul.tabs li.selected{
+	border-bottom:5px solid #be1027;  
+}     
+ul.tabs li.selected a
+{
+    /*selected tab style */
+    position: relative;
+    top: 0px;
+	color:#000;
+}              
+ul.tabs li.selected a:hover
+{
+    /*selected tab style */
+	color:#000;
+}       
+div.tabcontent
+{
+    display: block;
+}
+div.tabcontents
+{
+    border: none !important; 
+    background-color:transparent;
+}
+.Tabbed_Menu_Conatiner{
+	width:550px;
+	padding:0px;
+	margin:0 auto;	
+}
+.Tabbed_Menu_Conatiner .YourOffer{
+	margin: 0 auto;
+    width: 380px;
+}
+	.Tabbed_Menu_Conatiner .YourOffer h4{
+		font-family:Helvetica;
+		font-weight:bold;
+		font-size:12px;
+		font-weight:normal;
+		padding:75px 0px 8px;
+		text-align:left !important;
+	}
+.TextareaStyle{
+	border:1px solid #a6a6a6;
+	display:block;
+	height:90px;
+	width:100%;
+}
+.Tabbed_Menu_Conatiner .Pricing{
+	font-family:Helvetica;
+	font-weight:bold;
+	font-size:12px;
+	color:#000;
+	margin:100px auto;
+}
+.Tabbed_Menu_Conatiner .Pricing p {
+    margin: 190px 0 0;
+}
+.TxtField{
+	padding:7px;
+	color:#b4b4b4;
+	font-size:24px;
+	border:1px solid #ccc9c9;
+	width:65px;
+	margin-top:5px;
+}
+.TxtField:focus{
+	border:1px solid #be1027;
+}
+.TxtFieldSmall{
+	font-family:Helvetica;
+	font-weight:bold;
+	padding:7px;
+	color:#b4b4b4;
+	font-size:12px;
+	border:1px solid #ccc9c9;
+	width:65px;
+	margin:0px 15px 5px;
+	height:30px;
+	vertical-align:top;
+}
+.SubTitle{
+	display:block;
+	margin-top:90px;
+	margin-bottom:5px;
+}
+ul.PriceEntry{
+	width:500px;
+	margin:0px auto 0px;
+	padding:0px;
+}
+ul.PriceEntry li{
+	font-family:Helvetica;
+	font-weight:bold;
+	font-size:12px;
+	color:#000;
+	display:inline-block;
+	padding:0px 20px 0px;
+}
+ul.PriceEntry li.selected{
+	color:#be1027;
+}
+ul.PriceEntry li a{
+	display:inline-block;
+	font-family:Helvetica;
+	font-weight:bold;
+	font-size:12px;
+	color:#000;
+	padding:7px 10px;
+}
+ul.PriceEntry li a:hover{
+	color:#f23a3b;
+}
+
+.Tabbed_Menu_Conatiner .ImageUpload{ margin:118px 0 0;}
+.inp-form-small{
+}
+
+.Tabbed_Menu_Conatiner .CouponsDates{
+	margin-top:20px;
+}
+
+.Tabbed_Menu_Conatiner .ChooseCharity{
+	}
+	.Tabbed_Menu_Conatiner .ChooseCharity h3{
+		font-family:Helvetica;
+		font-weight:bold;
+		font-size:14px;
+		color:#000;
+		display:inline-block;
+		margin:20px 0px 10px;
+	}
+/**********************************Tabbed Menu End******************************/
+
+/******************** Create a Deal Page Css ***********************/
+
+/************Fonts**********/
+@font-face {
+	font-family: 'helveticalt85heavy_0';
+	src: url('../fonts/helveticalt85heavy_0.eot');
+	src: local('../fonts/helveticalt85heavy_0.ttf'), 
+	url('../fonts/helveticalt85heavy_0.woff') format('woff'), 
+	url('../fonts/helveticalt85heavy_0.ttf') format('truetype'), 
+	url('../fonts/helveticalt85heavy_0.svg') format('svg');
+}
+@font-face {
+	font-family: 'helvetica_lt_77_bold_condensed';
+	src: url('../fonts/helvetica_lt_77_bold_condensed.eot');
+	src: local('../fonts/helvetica_lt_77_bold_condensed.ttf'), 
+	url('../fonts/helvetica_lt_77_bold_condensed.woff') format('woff'), 
+	url('../fonts/helvetica_lt_77_bold_condensed.ttf') format('truetype'), 
+	url('../fonts/helvetica_lt_77_bold_condensed.svg') format('svg');
+}
+@font-face {
+	font-family: 'HelveticaNeue-CondensedBold';
+	src: url('../fonts/HelveticaNeue-CondensedBold.eot');
+	src: local('../fonts/HelveticaNeue-CondensedBold.ttf'), 
+	url('../fonts/HelveticaNeue-CondensedBold.woff') format('woff'), 
+	url('../fonts/HelveticaNeue-CondensedBold.ttf') format('truetype'), 
+	url('../fonts/HelveticaNeue-CondensedBold.svg') format('svg');
+}
+@font-face {
+	font-family: 'HelveticaNeue-Bold';
+	src: url('../fonts/HelveticaNeue-Bold');
+	src: local('../fonts/HelveticaNeue-Bold.ttf'), 
+	url('../fonts/HelveticaNeue-Bold.woff') format('woff'), 
+	url('../fonts/HelveticaNeue-Bold.ttf') format('truetype'), 
+	url('../fonts/HelveticaNeue-Bold.svg') format('svg');
+}
+@font-face {
+	font-family: 'HelveticaNeue';
+	src: url('../fonts/HelveticaNeue');
+	src: local('../fonts/HelveticaNeue.ttf'), 
+	url('../fonts/HelveticaNeue.woff') format('woff'), 
+	url('../fonts/HelveticaNeue.ttf') format('truetype'), 
+	url('../fonts/HelveticaNeue.svg') format('svg');
+}
+
+
+/*Slider*/
+
+.sl-slider-wrapper {
+	width: 100%;
+	height: 765px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	top:0px;
+	z-index:-1;
+	float:left;
+}
+
+.sl-slider {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* Slide wrapper and slides */
+
+.sl-slide,
+.sl-slides-wrapper,
+.sl-slide-inner {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+} 
+
+.sl-slide {
+	z-index: 1;
+}
+
+/* The duplicate parts/slices */
+
+.sl-content-slice {
+	overflow: hidden;
+	position: absolute;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	background: #fff;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+	opacity : 1;
+}
+
+/* Horizontal slice */
+
+.sl-slide-horizontal .sl-content-slice {
+	width: 100%;
+	height: 50%;
+	left: -200px;
+	-webkit-transform: translateY(0%) scale(1);
+	-moz-transform: translateY(0%) scale(1);
+	-o-transform: translateY(0%) scale(1);
+	-ms-transform: translateY(0%) scale(1);
+	transform: translateY(0%) scale(1);
+}
+
+.sl-slide-horizontal .sl-content-slice:first-child {
+	top: -200px;
+	padding: 200px 200px 0px 200px;
+}
+
+.sl-slide-horizontal .sl-content-slice:nth-child(2) {
+	top: 50%;
+	padding: 0px 200px 200px 200px;
+}
+
+/* Vertical slice */
+
+.sl-slide-vertical .sl-content-slice {
+	width: 50%;
+	height: 100%;
+	top: -200px;
+	-webkit-transform: translateX(0%) scale(1);
+	-moz-transform: translateX(0%) scale(1);
+	-o-transform: translateX(0%) scale(1);
+	-ms-transform: translateX(0%) scale(1);
+	transform: translateX(0%) scale(1);
+}
+
+.sl-slide-vertical .sl-content-slice:first-child {
+	left: -200px;
+	padding: 200px 0px 200px 200px;
+}
+
+.sl-slide-vertical .sl-content-slice:nth-child(2) {
+	left: 50%;
+	padding: 200px 200px 200px 0px;
+}
+
+/* Content wrapper */
+/* Width and height is set dynamically */
+.sl-content-wrapper {
+	position: absolute;
+}
+
+.sl-content {
+	width: 100%;
+	height: 100%;
+	background: #fff;
+}
+
+
+/*Slider End*/
+
+/*Content Slider Start*/
+/*============================*/
+/*======= Slider Styles ========*/
+/*============================*/
+.TopSpacer{ margin:44px 0 0; padding:22px 0 0;}
+.CaraBG{
+	box-shadow:-2px 1px 11px 3px #E4E4E4 inset;
+	background-color:#fff;
+	height:170px;
+	width:530px;
+}
+.main {
+    height: 160px;
+    margin: 0 auto;
+    position: relative;
+    width: 560px;
+}
+.gallery{
+	display:inline-block;
+	width:515px !important;
+	margin:0px auto;
+	height:160px;
+}
+
+.gallery > ul{
+	top:22px;
+}
+.gallery ul li{
+	display:inline-block;
+	position:relative;
+	height:130px;
+}
+
+.gallery ul li a{
+	display:block;
+	border:2px solid #fff;
+}
+
+.gallery ul li a:hover{
+	border:2px solid #bf1229;
+}
+
+.gallery ul li img{
+	border:none;
+}
+
+button.prev, button.next{
+	width:8px;
+	height:16px;
+	border:none;
+	vertical-align:middle;
+	margin:0;
+	position:absolute;
+	top:80px;
+}
+
+button.prev{
+	background:url("../images/button_prev.png") top no-repeat;
+	margin-right:-3px;
+	cursor:pointer;
+	left:0px;
+}
+
+button.next{
+	background:url("../images/button_next.png") top no-repeat;
+	margin-left:-3px;
+	cursor:pointer;
+	right:0px;
+}
+/*Content Slider End*/

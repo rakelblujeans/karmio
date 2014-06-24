@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteOptions inherit
+
+# Use PHP 5.3
+AddType application/x-httpd-php53 .php

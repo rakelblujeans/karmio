@@ -1,0 +1,171 @@
+#biz_charity_vtext {
+    background: url("../images/video_bg.png") repeat scroll 0 0 transparent;
+    height: 271px;
+    padding: 25px 47px 25px 24px;
+    width: 496px;
+}
+
+.fullwidth {
+    width: 100% !important;
+}
+
+.firstfield {
+    margin-top: 15px;
+}
+
+.charityfirstfield {
+    margin-top: 6px;
+}
+
+.bizfirstfield {
+    margin-top: 20px;
+}
+
+.thankyou_heading {
+    color: #BE1027;
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+.thankyou_red_text {
+    color: #BE1027;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.biz_thanks_red_text {
+    margin-top: 65px;
+}
+
+.thankyou_text {
+    font-size: 26px;
+    text-align: center;
+    margin-top: 5px;
+    color: #444444;
+}
+
+.confirm_text {
+    clear: left;
+    color: black;
+    font-size: 20px;
+    height: 30px;
+    margin-bottom: 5px;
+    padding: 8px 8px 11px;
+    text-align: center;
+}
+
+.biz_confirm_text {
+    margin-bottom: 15px;
+    font-size: 22px;
+    height: 25px;
+    padding: 12px;
+    color: black;
+    text-align: center;
+    clear: left;
+}
+
+#Charities_name, #Charities_owner_name, #Charities_email, #Charities_ein,
+#Charities_verifyCode {
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 2px 5px #CECECE inset;
+    color: #000000 !important;
+    font-size: 20px;
+    padding: 7px;
+    text-align: center;
+    width: 100%;
+}
+
+#UserStore_name, #UserStore_owner_name, #UserStore_email, #UserStore_verifyCode {
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 2px 5px #CECECE inset;
+    color: #000000 !important;
+    font-size: 22px;
+    padding: 11px;
+    text-align: center;
+    width: 100%;
+}
+
+#UserStore_verifyCode {
+    width: 72%;
+    float: right;
+    margin-right: -24px;
+}
+
+#Charities_verifyCode {
+    float: right;
+    margin-right: -16px;
+    width: 77%;
+}
+
+#Charities_verifyCode_em_, #UserStore_verifyCode_em_ {
+    clear: both;
+}
+
+#biz_charity_captcha_image {
+    float: left;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.charity_captcha_image {
+    height: 41px;
+}
+
+/*
+ * Special formatting for business signup form
+
+#UserStore_name, #UserStore_owner_name, #UserStore_email {
+    margin-bottom: 15px;
+    height: 32px;
+}
+*/
+
+.modify_container {
+    margin: -10px 0 0 -31px;
+}
+
+.charity_modify_container {
+    margin: -5px 0 0 -31px;
+}
+
+.arrow_left {
+    width: 0;
+    height: 0;
+    float: left;
+    border-right: 12px solid #BE1027;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+}
+
+#modify_link {
+    float: left;
+    background-color: #BE1027;
+    color: #FFFFFF;
+    width: 53px;
+    height: 15px;
+    padding: 5px 0 4px 4px;
+    text-align: left;
+}
+
+.biz_error {
+    margin-top: -9px;
+    margin-bottom: -5px !important;
+}
+
+.charity_error {
+    margin-top: -5px;
+    margin-bottom: -10px;
+}
+
+input::-webkit-input-placeholder { color:#CECECE; }
+input:-moz-placeholder { color:#CECECE; }
+input::-moz-placeholder { color:#CECECE; }
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; }
+input:focus::-moz-placeholder { color:transparent; }

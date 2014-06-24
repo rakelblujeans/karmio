@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+ul.PartnerCharities{
+	height: 400px;
+    margin: 0 auto;
+    /*overflow: auto;*/
+    padding: 0;
+    width: 1039px;
+	text-align:center;
+	display:table-cell;
+	vertical-align:middle;
+}
+.PartnerCharitiesHeading{
+	font-size:19px;
+	font-family:Helvetica;
+	color: #BE1027;
+	margin:0px;
+	padding:0 30px 24px;
+}
+
+ul.PartnerCharities li{
+	display: inline-block;
+}
+.PartnerCharities a {
+    display: block;
+    padding: 0 18px 45px;
+}
+p{
+	margin:0px;
+	font-family:arial;
+	letter-spacing: .5px;
+	font-weight: normal;
+
+}
+#charNum{
+display:inline;
+font-weight:bold;
+color:#AA0000;
+}
+#charNum2{
+display:inline;
+font-weight:bold;
+color:#AA0000;
+}

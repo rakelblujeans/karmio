@@ -1,0 +1,1 @@
+<div class="non-profit-image"><a href="javascript: updOrgId('<?php echo CHtml::encode($data->name); ?>','<?php echo CHtml::encode($data->id); ?>')"><img src="images/orgLogos/<?php echo CHtml::encode($data->logo); ?>" alt="<?php echo CHtml::encode($data->name).'-logo';?>" border="none" width="156" height="156"/></a></div>

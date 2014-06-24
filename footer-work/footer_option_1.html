@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+<script>
+$(document).ready(function(){
+$("#footer").hover(function(){
+  $("#box").slideDown();
+
+},function(){
+     $("#box").slideUp(); 
+});
+});
+
+
+
+</script>
+<style>
+body
+{
+margin:0px;
+height:100%;
+
+}
+#footer
+{
+bottom:0px;
+position:fixed;
+width:100%;
+}
+#box
+{
+height:40px;
+width:100%;
+background:#999999;
+}
+</style>
+</head>
+<body>
+<div id="footer">hover
+<div id="box" style="display: none">
+   <a href="#" class="bt btleft">Highlight it</a>
+   <a href="#" class="bt btright">Reset</a>
+</div>
+</div>
+
+</body>
+</html>

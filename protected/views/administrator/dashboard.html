@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link type="text/css" href="../admin/style.css" rel="stylesheet" />
+<script>
+function toggle(showHideDiv, switchImgTag) {
+        var ele = document.getElementById(showHideDiv);
+        var imageEle = document.getElementById(switchImgTag);
+        if(ele.style.display == "block") {
+                ele.style.display = "none";
+		imageEle.innerHTML = '<img src="images/plus.png" alt="" />';
+        }
+        else {
+                ele.style.display = "block";
+                imageEle.innerHTML = '<img src="images/minus.png" alt="" />';
+        }
+}  
+</script>
+</head>
+
+<body>
+<div class="page">
+<div class="logo"><img src="../admin/images/logo.png" alt="" /><span>BROOKLYN, NY</span><br /><span class="date">DEC 21</span></div>
+<div class="login-area">
+<div class="login">Welcome, Latino! </div>
+</div>
+<br style="clear:both" />
+<div class="deal">
+ <div class="current-deals">
+  <div class="t-deal">DASHBOARD</div>
+ </div>
+ <div style="height:189px; border-bottom: #ff735c solid 1px">
+ 	<div style="margin-top:30px; font-size:33px">
+    	<div style="width:411px; float:left">COUPON CONTROL</div>
+        <div style="float:right; width:636px">
+        	<div>USER DATA</div>
+            <div style="margin-top:20px">
+            	<form>
+            		<input type="text" class="search-field" name="">
+                    <input type="submit" value="" class="search-buttom" name="">
+                </form>
+            </div>
+        </div>
+    </div>
+ </div>
+ <div style="height:202px; border-bottom: #41b0e5 solid 17px;">
+ 	<div style="height:51px; margin-top: 19px; font-size:33px">
+    	COUPON CONTROL
+    </div>
+    <div>
+    	<input type="image" src="../admin/images/published.png" />
+    	<input type="image" src="../admin/images/holding.png" style="margin-left:35px" />
+    	<input type="image" src="../admin/images/suspended.png" style="margin-left:35px" />
+    	<input type="image" src="../admin/images/unpublished.png" style="margin-left:35px" />
+    </div>
+ </div>
+ <div class="l-deal">
+  <div class="deal-title">Dental Exam, X-Rays and Cleaning</div>
+  <div class="deal-regular-price">
+   <div class="regular-price-r">$300<br /><span>regular price</span></div>
+   <div class="regular-price-r">80%<br /><span>regular price</span></div>
+  </div>
+  <div class="sold-price">
+   <div class="sold">220<br /><span class="checked">sold/checked-in</span></div>
+   <div class="s-gross">$3218.00<br /><span class="checked">gross income</span></div>
+   <div class="net-incom">$2601.00<br /><span class="checked">net income</span></div>
+   <div class="s-pledged">[1265.90]<br /><span class="checked">pledged</span></div>
+   <div class="time-remaining">5h 43m 1s <span>(NOV 21, 201114:57:02)</span><br /><span class="checked">pledged</span></div>
+  </div>
+  <div class="deal-suspend">
+   <div class="plus-minus" id="plus-minus"><a id="imageDivLink" href="javascript:toggle('show-text', 'imageDivLink');"><img src="../admin/images/plus.png" alt="" border="0" /></a></div>
+   <div class="suspend"><a href="#">suspend</a></div>
+   <div class="show-text" id="show-text">
+     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </div>
+    <br style="clear:both" />
+    <div class="d-location">LOCATION: <br />
+    <span>1916 Avenue K, Brooklyn, NY 11230   Ph:888-389-3633</span></div>
+    
+  </div>
+ </div>
+ <div class="result-right">
+   <div class="pro-image"><img src="../admin/images/image.png" alt="" /></div>
+  </div>
+  <br style="clear:both" />
+ <hr style="clear:both; color:#40b0e5;" />
+ <br style="clear:both; " />
+ 
+ 
+ 
+</div>
+</div>
+</body>
+</html>

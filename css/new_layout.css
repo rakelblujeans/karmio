@@ -1,0 +1,1346 @@
+@font-face { 
+ font-family: Gotham;
+ src: url(../fonts/Gotham-Book.otf);
+ //src: local('Gotham-Medium'),
+ //url(../fonts/Gotham-Medium.ttf) format('truetype'); 
+} 
+/* CSS Document */
+
+/*********SADIA GULZAR 02-22-2012 sadiagulzar.vu@gmail.com**********/
+input[type='text'],input[type='password'],textarea,select{color:#000000 !important;}
+*{ margin:0 0 0 0; padding:0 0 0 0;}
+body{ width:100%; color:#000000;font-size:12px; background-attachment: fixed; background-size:cover;
+font-family:Helvetica, Arial, sans-serif;}
+/*******Site Main Structure******/
+#Header{width:50%; float:left; position:fixed; padding:62px 0 0; z-index:700;}
+#Header .CenterAlign{/*width:1000px;*/ margin:0 auto;}
+#Header .HundredPercent{float:left; padding:0 0 0 0; height:104px;}
+
+#Navigation{width:100%; float:left;height:42px;background:url(../images/NavigationBg.png) repeat-x top left; position:fixed; z-index:1000;}
+#Navigation .CenterAlign{    display: table;
+    margin: 0 auto;
+}
+#Navigation .HundredPercent{height: 42px;
+    position:relative;
+    width: 100%;
+}
+
+#MainBody{width:100%; float:left; /*min-height:600px;*/padding:160px 0 30px 0;}
+#MainBody .CenterAlign{width:1000px; margin:0 auto;}
+#MainBody .HundredPercent{width:100%; float:left;}
+
+#MainBody2{width:100%; float:left; min-height:500px;}
+#MainBody2 .CenterAlign{width:1000px; margin:0 auto;}
+#MainBody2 .HundredPercent{width:100%; float:left;}
+
+#ContentBody{width:100%; float:left; min-height:500px; padding:205px 0 30px 0;}
+#ContentBody .CenterAlign{width:1000px; margin:0 auto;}
+#ContentBody .HundredPercent{width:100%; float:left;}
+
+#HomePage{ padding:37px 0 0;}
+.CouponMainPage{
+	position:absolute !important;
+	padding:55px 0 30px !important;
+}
+
+#Footer{width:100%; float:left;height:38px; background-color:#868686; position:fixed; bottom:0; z-index:700; clear:both;}
+#Footer .CenterAlign{width:1000px; margin:0 auto;}
+#Footer .HundredPercent{width:100%; float:left; height:38px; overflow:hidden;}
+/******Header*****/
+#CompanyLogo{ /*float:left; */width:250px; margin-left:175px;}
+/*****Menu Items****/
+#Navigation .NavNewsletter{ display: table-cell;
+    vertical-align: top;
+    width: 11%;
+}
+#Navigation .NavMenu{display: table-cell;
+    margin: 0 auto;
+    vertical-align: top;
+    width: 78%;
+}
+#Navigation .NavAboutUs{ display: table-cell;
+    text-align: right;
+    vertical-align: top;
+    width: 7%;
+}
+#Navigation ul.Menu{display: table-row;
+    font-family: Helvetica;
+    font-size: 13px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#Navigation ul.Menu li{ display: table-cell;
+    margin: 0;
+    padding: 0 10px;
+    width: auto;
+}
+#Navigation ul.Menu li a{color: #FFFFFF;
+    display: table-cell;
+    font-weight: bold;
+    padding: 13px 5px;
+    text-decoration: none;
+}
+#Navigation ul.Menu li a:hover{color:#000000;}
+#Navigation ul.Menu li a.selected{color:#000000;}
+.GetNewsLetter2{
+	width:165px !important;
+}
+.MiddleNavSec{
+	float:left;
+	width:70%;
+	position:relative;
+}
+.MiddleNavRight{
+	float:right;
+}
+.AboutUs2{
+	width:10%;
+}
+/*#Footer .BtmNavMenu{ position:absolute; bottom:0px; left:20%;}*/
+#Footer ul.BtmMenu{float:none; width:60%; list-style-type:none;margin:0 auto;padding:0;font-family:Helvetica;
+font-size:13px;}
+#Footer ul.BtmMenu li{float:left;display:inline;padding:0px 10px;margin:0;}
+#Footer ul.BtmMenu li a{display:block; text-decoration:none; color:#FFFFFF; padding:13px 7px; font-weight:bold; text-transform:uppercase;}
+#Footer ul.BtmMenu li a:hover{color:#000000;}
+#Footer ul.BtmMenu li a.selected{color:#000000;}
+
+.RightSocialIcon{float:right; display:inline-block;}
+.RightSocialIcon ul{float:none;padding:0 9px 0 0;margin:0;list-style-type:none;display:table-cell;height:104px;
+ vertical-align:bottom;}
+.RightSocialIcon ul li{float:left;padding:0px;margin:0 2px;display:inline;}
+.RightSocialIcon ul li a{color:#FFFFFF;text-decoration:none;}
+
+/****Home Page Contents***/
+#HomePage .Row{ float:left; width:100%; padding:10px 0px 5px 0px;}
+
+.DealBox{display:block; float:right; clear:right; width:391px;/* margin:0 0 70px 0;*/ margin:-36px 0 70px;}
+.DealBox .DealBoxTop{display:block;clear:both;background:url(../images/DealBoxTop.png) no-repeat; height:24px;}
+.DealBox .DealBoxMid{display:block;clear:both;background:url(../images/DealBoxMid.png) repeat-y; min-height:95px;
+ padding:0px 9px 0 8px;width: 374px; float:left;}
+ 
+ .DealBox .DealBoxMid h2{ font-family:Helvetica , Arial; font-size:14px; color:#f23a3b; display:block; margin: 16px 0px; text-align:center; line-height:26px;}
+ .DealBox .DealBoxMid a{ display:block;}
+ 
+.DealBox .DealBoxBottom{display:block;clear:both;background:url(../images/DealBoxBottom.png) left bottom no-repeat; height:22px;}
+
+.DealBox .DealBoxRedTop{display:block;clear:both;background:url(../images/RedTop.png) 0 0 repeat-x;float: left;
+margin:-3px 0 -5px 0;width: 100%;height:8px;}
+.DealBox .DealBoxRedMid{display:block;clear:both;background:url(../images/RedLeft.png) 0px 3px repeat-y;float: left;width: 374px;}
+.DealBox .DealBoxRedBottom{display:block;clear:both;background:url(../images/RedBottom.png) repeat-x;height:8px;
+position: relative;width: 100%;z-index: 10;}
+.DealBox .RedBoxContents{background:#f33b3c;display:block;float:left;height:80px; position:relative; z-index:10;
+padding:20px 25px 20px 35px;width:328px;margin:-3px 0 -5px -3px; color:#FFFFFF;background:url(../images/RedBox.png) no-repeat;}
+
+
+
+.DealBox .CouponTotalPrice{margin:25px 10px 10px 20px;display:inline-block; clear:left; font-size:30px; font-weight:bold; text-align:center;color:#fb3f36;}
+.DealBox .CouponTotalPrice .CouponDetailPrice{font-weight:normal;font-size:12px;padding:3px 0 0 0;clear:both;display: block;}
+
+.DealBox ul.CouponSaving{list-style-type:none;margin:0 20px 20px 0;padding:0; display:inline-block; float:right;}
+.DealBox ul.CouponSaving li{margin:0;padding:0;display:block;float:none;color:#979797;font-size:12px;clear:both; font-weight:bold;}
+.DealBox ul.CouponSaving li span{margin:0;padding:0;display:block;color:#1b1b1b;font-size:18px;font-weight:bold;clear:both; font-weight:normal;}
+.DealBox ul.CouponSaving li p{margin:0;padding:0;display:block;color:#1b1b1b;font-size:12px; line-height:37px;clear:both;}
+
+.DealBox .TopBox{clear:both;color:#000000;float:left; margin:10px 20px; border-bottom:1px solid #000000; display:block; width:332px; min-height:154px;}
+.DealBox .TopBox h1{ font-size:30px; font-weight:bold; font-family:helveticalt85heavy_0; text-transform:uppercase;}
+.DealBox .TopBox p{ font-size:13px; display:block; clear:both; float:left; padding:10px 0;font-family:helvetica; width:100%;}
+.DealBox .TopBox a.FinePrint{ float:right; font-size:10px; text-transform:uppercase; overflow:hidden;}
+
+.DealBox a.BuyButton{text-align:center;display:table;clear:both;width:162px;height:33px; margin:35px auto 30px auto;}
+
+#Profile_form p {
+    padding: 0 0 0 100px;
+	font-weight:bold;
+}
+
+/****Sign In Page Contents***/
+.bg-top{display:block; float:left; clear:left; width:1059px; background:url(../images/boxbg_top.png); height:25px;}
+.bg-bottom{display:block; float:left; clear:left; width:1059px; margin-bottom:30px; background:url(../images/boxbg_bottom.png); height:25px; }
+.bg-top-solid{display:block; float:left; clear:left; width:1059px; background:url(../images/boxbg_top_solid.png); height:25px;}
+.bg-bottom-solid{display:block; float:left; clear:left; width:1059px; margin-bottom:30px; background:url(../images/boxbg_bottom_solid.png); height:25px; }
+.bg-mid{display:block; float:left; clear:left; width:1039px; background:url(../images/boxbg_mid.png) repeat; min-height:434px; padding:10px;}
+
+.SignInBox{display:block; float:left; clear:left; width:1039px; margin:0 0 30px 0; background:url(../images/boxbg.png); height:439px; padding:10px;}
+.ThankyouBox{display:block; float:left; clear:left; width:1039px; margin:0 0 30px 0; background:url(../images/boxbg.png); height:439px; padding:10px;}
+.SignInBox .SignInBoxLeft{display:block;clear:both; margin: 50px 50px; width:480px; background:#0033CC}
+.SignInBox .DealBoxMid{display:block;clear:both;background:url(../images/DealBoxMid.png) repeat-y; min-height:95px;
+
+ padding:0px 9px 0 8px;width: 374px; float:left;}
+ .SignUpBox{display:block; float:left; clear:left; width:1039px; margin:0 0 30px 0; background:url(../images/boxbg_large.png); height:600px; padding:10px;}
+.SignUpBox .SignInBoxLeft{display:block;clear:both; margin: 50px 50px; width:480px; background:#0033CC}
+.SignUpBox .DealBoxMid{display:block;clear:both;background:url(../images/DealBoxMid.png) repeat-y; min-height:95px;
+ padding:0px 9px 0 8px;width: 374px; float:left;}
+ 
+ .DealBox .DealBoxMid h2{ font-family:Helvetica , Arial; font-size:14px; color:#f23a3b; display:block; margin: 16px 0px; text-align:center; line-height:26px;}
+ .DealBox .DealBoxMid a{ display:block;}
+ 
+.DealBox .DealBoxBottom{display:block;clear:both;background:url(../images/DealBoxBottom.png) left bottom no-repeat; height:22px;}
+
+.DealBox .DealBoxRedTop{display:block;clear:both;background:url(../images/RedTop.png) 0 0 repeat-x;float: left;
+margin:-3px 0 -5px 0;width: 100%;height:8px;}
+.DealBox .DealBoxRedMid{display:block;clear:both;background:url(../images/RedLeft.png) 0px 3px repeat-y;float: left;width: 374px;}
+.DealBox .DealBoxRedBottom{display:block;clear:both;background:url(../images/RedBottom.png) repeat-x;height:8px;
+position: relative;width: 100%;z-index: 10;}
+.DealBox .RedBoxContents{background:#f33b3c;display:block;float:left;height:80px; position:relative; z-index:10;
+padding:20px 25px 20px 35px;width:328px;margin:-3px 0 -5px -3px; color:#FFFFFF;background:url(../images/RedBox.png) no-repeat;}
+
+
+
+.DealBox .CouponTotalPrice{margin:25px 10px 10px 20px;display:inline-block; clear:left; font-size:30px; font-weight:bold; text-align:center;color:#fb3f36;}
+.DealBox .CouponTotalPrice .CouponDetailPrice{font-weight:normal;font-size:12px;padding:3px 0 0 0;clear:both;display: block;}
+
+.DealBox ul.CouponSaving{list-style-type:none;margin:0 20px 20px 0;padding:0; display:inline-block; float:right;}
+.DealBox ul.CouponSaving li{margin:0;padding:0;display:block;float:none;color:#979797;font-size:12px;clear:both;  font-weight:bold;}
+.DealBox ul.CouponSaving li span{margin:0;padding:0;display:block;color:#1b1b1b;font-size:18px;font-weight:bold;clear:both;  font-weight:normal;}
+.DealBox ul.CouponSaving li p{margin:0;padding:0;display:block;color:#1b1b1b;font-size:12px; line-height:37px;clear:both;}
+
+.DealBox .TopBox{clear:both;color:#000000;float:left; margin:10px 20px; border-bottom:1px solid #000000; display:block; width:332px; min-height:154px;}
+.DealBox .TopBox h1{ font-size:30px; font-weight:bold; font-family:helveticalt85heavy_0;}
+.DealBox .TopBox p{ font-size:13px; display:block; clear:both; float:left; padding:10px 0;font-family:helvetica; width:100%;}
+.DealBox .TopBox a.FinePrint{ float:right; font-size:12px;}
+
+.DealBox a.BuyButton{text-align:center;display:table;clear:both;width:162px;height:33px; margin:35px auto 30px auto;}
+
+
+/******************** Form Page Css Started ***********************/
+.FBGIMG{ background-image:url(../images/Backgrounds/FormBG.jpg);}
+
+.BForm{ float:left; margin:35px 0px; font-size:12px;}
+.BForm h1{ text-align:center; font-size:18px; font-weight:bold; width:1000px; margin-bottom:30px;}
+.BForm .FormLeftSide{ float:left; width:450px;}
+.BForm .FormLeftSide h2{ text-align:left; font-weight:bold; font-size:14px; margin:5px 0px 15px;} 
+
+.BForm .FormRightSide{ float:right; width:450px;}
+.BForm .FormRightSide h2{ text-align:left; font-weight:bold; font-size:14px; margin:5px 0px 15px;} 
+
+.FormLeftSide b{ display:block;}
+a.form_btn{ display:block; float:right; margin:48px 0px 0px;}
+
+.Fieldset{ padding:1px; border:1px solid #a6a6a6; height:21px; width:413px; color:#000; display:block; margin:3px 0 5px;}
+.Fieldset2{ padding:1px; border:1px solid #a6a6a6; height:21px; width:203px; color:#000; display:inline-block; margin:3px 0 5px;}
+.Fieldset3{ padding:1px; border:1px solid #a6a6a6; height:21px; width:46px; color:#000; display:inline-block; margin:3px 0 5px;}
+.Fieldset4{ padding:1px; border:1px solid #a6a6a6; height:21px; width:123px; color:#000; display:inline-block; margin:3px 0 5px;}
+.Field1{ padding:1px; border:1px solid #a6a6a6; height:16px; width:180px; color:#000; display:inline-block; margin:2px 0 10px;}
+.Field2{ padding:1px; border:1px solid #a6a6a6; height:16px; width:35px; color:#000; display:inline-block; margin:2px 0 10px;}
+.Field3{ padding:1px; border:1px solid #a6a6a6; height:16px; width:55px; color:#000; display:inline-block; margin:2px 0 10px;}
+.BuyFormSpacer{ float:left; margin:0 60px 0 0;}
+.sel-form{ 
+	background: none repeat scroll 0 0 #ededed;
+    border: 1px solid #9c9c9c;
+    border-radius: 5px 0 0 5px;
+    color: #656565 !important;
+    padding: 1px;
+	margin:2px 7px 10px 0px;
+	font:normal 12px Helvetica;
+}
+.sel-form option{
+	padding:0 6px;
+}
+/******************** Form Page Css Ended ***********************/
+
+/******************** Create a Deal Page Css ***********************/
+.BGIMG{ background-image: url(../images/Backgrounds/bg_004.jpg);}
+
+.InputPrice{/* font-size:14px !important; font-weight:bold !important; color:#000 !important; line-height:27px; */}
+.RedInputPrice{ /*font-size:14px !important; font-weight:bold !important; color:#fff !important; line-height:27px; */}
+
+.CreateDeal{ width:1059px; padding:0 0 0;}
+.CreateDeal .TopImage{background-image:url(../images/create_a_deal_topbg.png); background-repeat:no-repeat; height:16px; width:100%;}
+.CreateDeal .MiddleImage{height:452px; background-image:url(../images/create_a_deal_mbg.png); background-repeat: repeat-y; width:100%; /*height:625px;*/}
+.CreateDeal .BottomImage{background-image:url(../images/create_a_deal_btmbg.png); background-repeat:no-repeat; height:16px; width:100%;}
+
+.CreateDeal .TabStyle{ width:612px;}
+
+.CreateDeal .BuyPage{ width:595px; position:relative; height:426px;}
+
+.CreateDeal .BuyPage .LeftSide{ position:absolute; left:50px; bottom:10px;}
+.CreateDeal .BuyPage .RightSide{ position:absolute; right:15px; top:32px;}
+
+.CreateDeal .BuyPage .RightSide .BuyForm{
+	width:400px;
+}
+.CreateDeal .BuyPage .RightSide .BuyForm h1{
+	font-size:36px;
+	color:#d3d3d3;
+	font-family:Helvetica , Arial;
+	display:inline-block;
+	font-weight:bold;
+	height:44px;
+	float:left;
+}
+
+.CreateDeal .BuyPage .RightSide .BuyForm .Sect01{
+	width:100%;
+}
+
+.CreateDeal .BuyPage .RightSide .BuyForm .Sect01 h2{
+	color:#000;
+	font-family:Helvetica , Arial;
+	font-size:16px;
+	margin:15px 0 10px;
+	font-weight:bold;
+}
+
+.CreateDeal .BuyPage .RightSide .BuyForm .Sect01 label{
+	color:#000;
+	font-family:Helvetica , Arial;
+	font-size:12px;
+	display:block;
+	font-weight:bold;
+}
+
+.RedFont{ color:#f23a3b !important;}
+.Marg{ margin:0px 15px 0px 0px;}
+
+.RedButton{
+	background-image: url("../images/red_blank_button.png");
+    background-repeat: no-repeat;
+    color: #FFFFFF !important;
+    display: block;
+    font-family:Helvetica , Arial;
+    font-size: 13px;
+    height: 34px;
+    line-height: 34px;
+    width: 224px;
+}
+
+/*******************************fb button css**************************************/
+#RES_ID_fb_login_image {
+    display: none;
+}
+.fbconnect_login_button {
+    background: url('../images/red_blank_button.png') no-repeat;
+    display: inline-block;
+    height: 34px;
+    width: 224px;
+}
+
+#fb_butonek a
+{
+background: url("../images/red_blank_button.png") no-repeat;
+
+width:224px; 
+
+height:34px; 
+}
+
+#fb_butonek a span
+{
+border:0px none;
+background: none;
+display:none;
+}
+
+
+.NetworkGood{
+	background:url(../images/nfg_logo.gif) center top no-repeat transparent;
+	height:35px;
+	width:380px;
+}
+/**********************************Tabbed Menu Strat******************************/
+.Numbering{
+	float:left;
+	line-height:26px;
+	font-size:30px;
+}
+.TabsText{
+	float:none;
+	display:table;
+}
+ul.tabs
+{
+    padding: 7px 0;
+    font-size: 0;
+    margin:0;
+    list-style-type: none;
+	height:55px;
+    text-align: center; /*set to left, center, or right to align the tabs as desired*/
+	overflow:hidden;
+}       
+ul.tabs li
+{
+    list-style:none; font-family:Helvetica; font-size:14px; color:#b0adac; display:inline-block; text-transform:capitalize; width:100px; margin:0px 0px 0px 20px; padding:0px 0px 7px;text-align:center; float:left;
+    /*margin-right:3px;*/ /*distance between tabs*/
+}       
+ul.tabs li a
+{
+    position: relative;
+    z-index: 1;
+    text-decoration:none; 
+	color:#b0adac; 
+	font-size:12px !important;
+	font-weight:bold; 
+	text-align:center;
+    outline:none;
+}        
+ul.tabs li a:visited
+{
+	text-decoration:underline;
+}      
+ul.tabs li a:hover
+{
+	color:#000;
+}
+ul.tabs li.selected{
+	border-bottom:5px solid #be1027;  
+}     
+ul.tabs li.selected a
+{
+    /*selected tab style */
+    position: relative;
+    top: 0px;
+	color:#000;
+}              
+ul.tabs li.selected a:hover
+{
+    /*selected tab style */
+	color:#000;
+}       
+div.tabcontent
+{
+    display: block;
+}
+div.tabcontents
+{
+    border: none !important; 
+    background-color:transparent;
+}
+.Tabbed_Menu_Conatiner{
+	width:550px;
+	padding:0px;
+	margin:0 auto;	
+}
+.Tabbed_Menu_Conatiner .YourOffer{
+	margin: 0 auto;
+    width: 380px;
+}
+	.Tabbed_Menu_Conatiner .YourOffer h4{
+		font-family:Helvetica;
+		font-weight:bold;
+		font-size:12px;
+		font-weight:normal;
+		padding:40px 0px 8px;
+		text-align:left !important;
+	}
+.TextareaStyle{
+	border:1px solid #a6a6a6;
+	display:block;
+	height:90px;
+	width:100%; font-family:Arial; font-weight:normal; font-size:13px;
+}
+.Tabbed_Menu_Conatiner .Pricing{
+	font-family:Helvetica;
+	font-weight:bold;
+	font-size:12px;
+	color:#000;
+	margin:100px auto;
+}
+.Tabbed_Menu_Conatiner .Pricing p {
+    margin: 190px 0 0;
+}
+.TxtField{
+	padding:7px;
+	color:#b4b4b4;
+	font-size:24px;
+	border:1px solid #ccc9c9;
+	width:65px;
+	margin-top:5px;
+}
+.TxtField:focus{
+	border:1px solid #be1027;
+}
+.TxtFieldSmall{
+	font-family:Helvetica;
+	font-weight:bold;
+	padding:7px;
+	color:#b4b4b4;
+	font-size:12px;
+	border:1px solid #ccc9c9;
+	width:65px;
+	margin:0px 15px 5px;
+	height:30px;
+	vertical-align:top;
+}
+.SubTitle{
+	display:block;
+	margin-top:90px;
+	margin-bottom:5px;
+}
+ul.PriceEntry{
+	width:500px;
+	margin:0px auto 0px;
+	padding:0px;
+}
+ul.PriceEntry li{
+	font-family:Helvetica;
+	font-weight:bold;
+	font-size:12px;
+	color:#000;
+	display:inline-block;
+	padding:0px 20px 0px;
+}
+ul.PriceEntry li.selected{
+	color:#be1027;
+}
+ul.PriceEntry li a{
+	display:inline-block;
+	font-family:Helvetica;
+	font-weight:bold;
+	font-size:12px;
+	color:#000;
+	padding:7px 10px;
+}
+ul.PriceEntry li a:hover{
+	color:#f23a3b;
+}
+
+.Tabbed_Menu_Conatiner .ImageUpload{ margin:118px 0 0;}
+.inp-form-small{
+}
+
+.Tabbed_Menu_Conatiner .CouponsDates{
+	margin-top:20px;
+}
+
+.Tabbed_Menu_Conatiner .ChooseCharity{
+	}
+	.Tabbed_Menu_Conatiner .ChooseCharity h3{
+		font-family:Helvetica;
+		font-weight:bold;
+		font-size:14px;
+		color:#000;
+		display:inline-block;
+		margin:20px 0px 10px;
+	}
+/**********************************Tabbed Menu End******************************/
+
+/******************** Create a Deal Page Css ***********************/
+
+/************Fonts**********/
+@font-face {
+	font-family: 'helveticalt85heavy_0';
+	src: url('../fonts/helveticalt85heavy_0.eot');
+	src: local('../fonts/helveticalt85heavy_0.ttf'), 
+	url('../fonts/helveticalt85heavy_0.woff') format('woff'), 
+	url('../fonts/helveticalt85heavy_0.ttf') format('truetype'), 
+	url('../fonts/helveticalt85heavy_0.svg') format('svg');
+}
+@font-face {
+	font-family: 'helvetica_lt_77_bold_condensed';
+	src: url('../fonts/helvetica_lt_77_bold_condensed.eot');
+	src: local('../fonts/helvetica_lt_77_bold_condensed.ttf'), 
+	url('../fonts/helvetica_lt_77_bold_condensed.woff') format('woff'), 
+	url('../fonts/helvetica_lt_77_bold_condensed.ttf') format('truetype'), 
+	url('../fonts/helvetica_lt_77_bold_condensed.svg') format('svg');
+}
+@font-face {
+	font-family: 'HelveticaNeue-CondensedBold';
+	src: url('../fonts/HelveticaNeue-CondensedBold.eot');
+	src: local('../fonts/HelveticaNeue-CondensedBold.ttf'), 
+	url('../fonts/HelveticaNeue-CondensedBold.woff') format('woff'), 
+	url('../fonts/HelveticaNeue-CondensedBold.ttf') format('truetype'), 
+	url('../fonts/HelveticaNeue-CondensedBold.svg') format('svg');
+}
+@font-face {
+	font-family: 'HelveticaNeue-Bold';
+	src: url('../fonts/HelveticaNeue-Bold');
+	src: local('../fonts/HelveticaNeue-Bold.ttf'), 
+	url('../fonts/HelveticaNeue-Bold.woff') format('woff'), 
+	url('../fonts/HelveticaNeue-Bold.ttf') format('truetype'), 
+	url('../fonts/HelveticaNeue-Bold.svg') format('svg');
+}
+@font-face {
+	font-family: 'HelveticaNeue';
+	src: url('../fonts/HelveticaNeue');
+	src: local('../fonts/HelveticaNeue.ttf'), 
+	url('../fonts/HelveticaNeue.woff') format('woff'), 
+	url('../fonts/HelveticaNeue.ttf') format('truetype'), 
+	url('../fonts/HelveticaNeue.svg') format('svg');
+}
+
+
+/*Slider*/
+
+.sl-slider-wrapper {
+	width: 100%;
+	height: 810px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	top:0px;
+	z-index:-1;
+	float:left;
+}
+
+.sl-slider {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.sl-slider_bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background:url(../images/bgs1.jpg) no-repeat;
+}
+
+/* Slide wrapper and slides */
+
+.sl-slide,
+.sl-slides-wrapper,
+.sl-slide-inner {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+} 
+
+.sl-slide {
+	z-index: 1;
+}
+
+/* The duplicate parts/slices */
+
+.sl-content-slice {
+	overflow: hidden;
+	position: absolute;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	background: #fff;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+	opacity : 1;
+}
+
+/* Horizontal slice */
+
+.sl-slide-horizontal .sl-content-slice {
+	width: 100%;
+	height: 50%;
+	left: -200px;
+	-webkit-transform: translateY(0%) scale(1);
+	-moz-transform: translateY(0%) scale(1);
+	-o-transform: translateY(0%) scale(1);
+	-ms-transform: translateY(0%) scale(1);
+	transform: translateY(0%) scale(1);
+}
+
+.sl-slide-horizontal .sl-content-slice:first-child {
+	top: -200px;
+	padding: 200px 200px 0px 200px;
+}
+
+.sl-slide-horizontal .sl-content-slice:nth-child(2) {
+	top: 50%;
+	padding: 0px 200px 200px 200px;
+}
+
+/* Vertical slice */
+
+.sl-slide-vertical .sl-content-slice {
+	width: 50%;
+	height: 100%;
+	top: -200px;
+	-webkit-transform: translateX(0%) scale(1);
+	-moz-transform: translateX(0%) scale(1);
+	-o-transform: translateX(0%) scale(1);
+	-ms-transform: translateX(0%) scale(1);
+	transform: translateX(0%) scale(1);
+}
+
+.sl-slide-vertical .sl-content-slice:first-child {
+	left: -200px;
+	padding: 200px 0px 200px 200px;
+}
+
+.sl-slide-vertical .sl-content-slice:nth-child(2) {
+	left: 50%;
+	padding: 200px 200px 200px 0px;
+}
+
+/* Content wrapper */
+/* Width and height is set dynamically */
+.sl-content-wrapper {
+	position: absolute;
+}
+
+.sl-content {
+	width: 100%;
+	height: 100%;
+	background: #fff;
+}
+
+
+/*Slider End*/
+
+/*Content Slider Start*/
+/*============================*/
+/*======= Slider Styles ========*/
+/*============================*/
+.TopSpacer{ margin:44px 0 0; padding:22px 0 0;}
+.CaraBG{
+	box-shadow:-2px 1px 11px 3px #E4E4E4 inset;
+	background-color:#fff;
+	height:170px;
+	width:530px;
+}
+.main {
+    height: 160px;
+    margin: 0 auto;
+    position: relative;
+    width: 560px;
+}
+.gallery{
+	display:inline-block;
+	width:515px !important;
+	margin:0px auto;
+	height:160px;
+}
+
+.gallery > ul{
+	top:22px;
+}
+.gallery ul li{
+	display:inline-block;
+	position:relative;
+	height:130px;
+}
+
+.gallery ul li a{
+	display:block;
+	border:2px solid #fff;
+}
+
+.gallery ul li a:hover{
+	border:2px solid #bf1229;
+}
+
+.gallery ul li img{
+	display:block;
+	border:2px solid #fff;
+}
+.gallery ul li img:hover{
+	border:2px solid #bf1229;
+}
+
+button.prev, button.next{
+	width:8px;
+	height:16px;
+	border:none;
+	vertical-align:middle;
+	margin:0;
+	position:absolute;
+	top:80px;
+}
+
+button.prev{
+	background:url("../images/button_prev.png") top no-repeat;
+	margin-right:-3px;
+	cursor:pointer;
+	left:0px;
+}
+
+button.next{
+	background:url("../images/button_next.png") top no-repeat;
+	margin-left:-3px;
+	cursor:pointer;
+	right:0px;
+}
+/*Content Slider End*/
+
+
+#contact_form { padding: 10px 20px;}
+#contact_form form { margin: 0px; padding: 0px; }
+
+#contact_form form .input {
+	padding: 5px;
+	width: 300px;
+	font-family:Helvetica , Arial;
+	font-size: 12px;
+	color: #aaaaaa;
+	height:15px;
+	border: 1px solid #CCCCCC;
+	background: #fff none repeat fixed 0 0;
+}
+#contact_form textarea {
+    background: #fff !important;
+    border: 1px solid #CCCCCC !important;
+}
+.right h1 {
+    color: #BE1027;
+    margin-top: 0;
+}
+.right p{ 
+	color: #767474;
+    font-family: Helvetica,Arial;
+    font-size: 15px;
+	line-height:23px;
+	margin-bottom:15px;
+}
+#contact_form .for {
+	padding: 1px 5px 5px 5px;
+	width: 313px;
+	font-family:Helvetica , Arial;
+	font-size: 12px;
+	color: #aaaaaa;
+	border: 0px solid #3c3735;
+}
+.left ul {
+    margin-left: 69px;
+}
+#contact_form label { display: block; width: 300px; margin-right: 10px; font-size: 13px;color: #000;padding-left:5px; font-weight:bold; }
+.red_bold{  font-size: 20px; color: #ce2a21; font-weight:bold; font-family:Helvetica , Arial; }
+.red_hilight{  font-size: 15px; color: #ce2a21; font-weight:bold; font-family:Helvetica , Arial; }
+.ThankyouPopup .RedHilight{
+	color: #F33C38 !important
+    font-family: Helvetica,Arial;
+    font-size: 16px !important;
+    font-weight: bold;
+	margin:10px;
+}
+.ThankyouPopup .SmTxt{
+    color: #F33C38 !important;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 17px 10px 24px;
+    text-transform: lowercase;
+}
+.ThankyouPopup .NormTxt {
+    font-size: 15px;
+    margin: 0;
+}
+.ThankyouBox .BoldTxt {
+    font-size: 24px !important;
+    margin: 3px 0 5px;
+}
+.red{color: #ce2a21; font-size:12px;}
+.RedH3{
+	font-size:30px !important;
+}
+.ThankyouPopup h3{ margin:10px; color:#f33c38 !important;}
+.ThankyouPopup p{ margin:10px 10px 24px 10px; color:#f33c38 !important;}
+#contact_form .ARegTxt{  font-size: 20px; color: #BE1027; font-weight:bold; font-family:Helvetica , Arial; padding-bottom:20px; }
+#contact_form .RegTxt{ margin-left: 6px; font-size: 16px; color: #555555; font-weight:bold; font-family:Helvetica , Arial;  margin-top: 20px;}
+#contact_form .RedTxt{ margin-left: 5px; font-size: 13px; color: #555555; font-family:Helvetica , Arial;  margin-top: 20px;}
+#contact_form .RedTxt a{  color: #BE1027; font-family:Helvetica , Arial;  }
+#contact_form .RedTxt a:hover{ color: #555; }
+#contact_form .PassRedTxt{  font-size: 13px; color: #555;  font-family:Helvetica , Arial; }
+#contact_form .PassRedTxt a{  font-size: 13px; color: #be1027;  font-family:Helvetica , Arial; }
+#contact_form .PassRedTxt a:hover{  font-size: 13px; color: #555;  font-family:Helvetica , Arial; }
+#contact_form .SignRedTxt{  font-size: 18px; color: #be1027; font-weight:bold; font-family:Helvetica , Arial; }
+#contact_form .SignRedTxt{  font-size: 18px; color: #be1027; font-weight:bold; font-family:Helvetica , Arial; }
+
+#contact_form textarea {
+	background: #13100F none repeat fixed 0 0;
+	border: 1px solid #3c3735;
+	display: block;
+	font-family:Helvetica , Arial;
+	font-size: 12px;
+	color: #aaaaaa;
+	height: 150px;
+	margin-top: 5px;
+	padding: 5px;
+	width: 260px;
+}
+
+#contact_form .submit_btns {
+	width: 103px;
+	height:37px;
+	font-weight: bold;
+	color: #fff;
+	cursor: pointer;
+	margin-top: 15px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	background:url(../images/form_btns.png);
+}
+
+.col_w310 {
+	width: 350px;
+	padding-right: 20px;
+	
+	margin:40px 50px 30px;
+	background: url(../images/line.png) right no-repeat;
+}
+
+
+.col_w311 {
+	width: 370px;
+	padding-right: 0px;
+	margin: 31px auto;
+	text-align:left !important;
+}
+
+
+.fbconnect {
+	
+	padding-right: 20px;
+	
+	margin: 90px 30px;
+	
+}
+
+.float_l { float: left; }
+.float_r { float: right; }
+
+.cleaner_h10 { clear: both; width:100%; height: 5px; }
+
+.RegisterFieldBox{
+	width:375px !important;
+}
+.RegisterFieldBox .input{
+	width:365px !important;
+}
+
+
+
+/******** Deal Page css ************/
+
+.PDealsBox{display:block; float:left; clear:left; width:1039px; margin:30px 0; background:url(../images/boxbg.png); height:439px; padding:10px;}
+
+.PHeadTxt{  font-size: 17px; color: #BE1027; font-family:Helvetica , Arial; margin-left:25px;}
+
+.PurchaseBox{display:block;	float: left;    margin: 20px 115px;    width: 900px; }
+.PurchaseBox .copyimg{	float: right; width:38px; clear:both;}	
+.PurchaseBox .fineTxt a{	float: left;  display:block; color:#00BCFF; text-align:center; font-size:15px; margin-left:15px; font-family:Arial, Helvetica, sans-serif;}	
+.PurchaseBoxLeft{ background:#fff; border-radius: 5px 0 0 5px;  display: block; float: left;   margin: 90px 5px 0 -44px; padding: 5px;
+    position: absolute;    width: 250px; }
+.PurchaseBoxLeft .Cuponco{display:block; float: left; text-align:center; margin-left: 50px; }
+.PurchaseBoxLeft .Cuponco .cupontxt{display:block; color:#000; text-align:center; font-size:30px; }
+.PurchaseBoxLeft .Cuponco .cupontxtBlue{display:block; color:#00BCFF; text-align:center; font-size:18px; }
+
+
+.PurchaseBoxLeft .Cuponprc{display:block; float: left; text-align:center; margin-left: 20px; margin-top:20px; }
+.PurchaseBoxLeft .Cuponprc .Cuponprctxt{display:block; color:#000; text-align:center; font-size:13px; font-weight:bold; }
+.PurchaseBoxLeft .Cuponprc .CuponprctxtBlue{display:block; color:#00BCFF; text-align:center; font-size:13px; }
+
+
+.PurchaseBoxRight{display:block; float: right;   margin: 20px 50px; width: 637px; 	}
+.PurchaseBoxRight .PurchaseBoxTop{display:block;clear:both;background:url(../images/topbg.png) no-repeat; height:14px;}
+
+.PurchaseBoxRight .PurchaseBoxMid{display:block;clear:both;background:url(../images/midbg.png) repeat-y;
+ padding:0px 15px 0 8px;width: 637px; float:left;}	
+ 
+  .PurchaseBoxRight .PurchaseBoxMidright{display:block;  padding:0px 15px 0 8px; width: 160px; float:right; }	
+  .PurchaseBoxRight .PurchaseBoxMidright h1{ font-size:35px; display:block; text-align:center; float:right; padding:20px 30px 0px 30px; font-family:helvetica; color:#F73C31;}
+  
+   .PurchaseBoxRight .PurchaseBoxMidright p{ font-size:15px; display:block;  float:right; padding:0px 0px; font-family:helvetica;  color:#F73C31; }
+  
+ .PurchaseBoxRight .PurchaseBoxMidleft{display:block;clear:both; padding:0px 15px 0 8px; width: 400px; float:left;}	
+ .PurchaseBoxRight .PurchaseBoxMidleft h1{ font-size:20px; display:block; clear:both; float:left; padding:10px 5px; border-bottom:2px solid #000;font-family:Helvetica , Arial; width:100%; line-height: 20px; font-weight:bold;}
+.PurchaseBoxRight .PurchaseBoxMidleft p{ font-size:13px; display:block; clear:both; float:left; font-family:helvetica;}
+ .PurchaseBoxRight .PurchaseBoxMidleft .mapDiv{ font-size:15px; color:#53b7ff; display:block; float:left; padding:10px 5px; font-family:helvetica; width:50px; line-height: 20px;}
+.PurchaseBoxRight .PurchaseBoxMidleft .mapDiv img{ padding:0px 5px; float:left; clear:both;}
+ .PurchaseBoxRight .PurchaseBoxMidleft .crusisDiv{ font-size:15px; color:#000; display:block;  float:left; padding:10px 5px;  font-family:helvetica; width:330px; line-height: 20px;}
+ .PurchaseBoxRight .PurchaseBoxBottom{display:block;clear:both;background:url(../images/bottombg.png)  no-repeat; height:65px;}
+	  .PurchaseBoxRight .PurchaseBoxBottom h1{ font-size:30px; display:block; text-align:center; float:right; padding:12px 30px 0px 30px; font-family:helvetica; color:#fff;}
+  
+   .PurchaseBoxRight .PurchaseBoxBottom p{ font-size:18px; display:block;  float:left; padding:15px 0px 0px 30px; font-family:helvetica;  color:#fff; text-transform:capitalize !important; }
+
+	
+	.DealBox .DealBoxTop{display:block;clear:both;background:url(../images/DealBoxTop.png) no-repeat; height:24px;}
+.DealBox .DealBoxMid{display:block;clear:both;background:url(../images/DealBoxMid.png) repeat-y; min-height:87px; overflow:hidden;
+ padding:0px 9px 0 8px;width: 374px; float:left;}
+ 
+ .DealBox .DealBoxMid h2{ font-family:Helvetica , Arial; font-size:14px; color:#f23a3b; font-weight:bold; display:block; margin: 9px 0; text-align:center; line-height:17px;}
+ .DealBox .DealBoxMid a{ display:block;}
+ 
+.DealBox .DealBoxBottom{display:block;clear:both;background:url(../images/DealBoxBottom.png) left bottom no-repeat; height:22px;}
+
+.DealBox .DealBoxRedTop{display:block;clear:both;background:url(../images/RedTop.png) 0 0 repeat-x;float: left;
+margin:-3px 0 -5px 0;width: 100%;height:8px;}
+.DealBox .DealBoxRedMid{display:block;clear:both;background:url(../images/RedLeft.png) 0px 3px repeat-y;float: left;width: 374px;}
+.DealBox .DealBoxRedBottom{display:block;clear:both;background:url(../images/RedBottom.png) repeat-x;height:8px;
+position: relative;width: 100%;z-index: 10;}
+.DealBox .RedBoxContents{background:#f33b3c;display:block;float:left;height:80px; position:relative; z-index:10;
+padding:20px 25px 20px 35px;width:328px;margin:-3px 0 -5px -3px; color:#FFFFFF;background:url(../images/RedBox.png) no-repeat; text-align:center !important;}
+
+.DealBox .CouponPrice{display:inline-block; font-size:32px; font-weight:bold; }
+.DealBox .CouponPriceLarge{display:inline-block; clear:left; font-size:32px; font-weight:bold; margin-left:13px;}
+.DealBox .CouponDetail{float:none; display:inline-block; font-weight:normal; font-size:13px; padding:10px 0 0 0;}
+.DealBox .CouponTitle{ font-size:20px; color:#fff; margin:14px 0 0; padding:0px; text-align:center; line-height:22px; font-family:Helvetica; font-weight:bold;}
+.DealBox .CouponTitleEntry{ opacity:0.3; font-size:20px; color:#fff; margin:0px; padding:0px; text-align:center; line-height:30px; font-family:Helvetica; border-bottom:2px dashed #fff;}
+.DealBox .ShadowTextBox{width:318px;height:25px; float:left;font-size:16px;font-family:Helvetica , Arial;
+background:url(../images/TextBoxShadow.png) repeat-x; padding:6px 5px; text-align:center; font-weight:bold;color:#979797;}
+
+.DealBox .CouponTotalPrice{margin:25px 10px 10px 20px;display:inline-block; clear:left; font-size:36px; text-shadow:-1px 2px 3px #DDD; font-weight:bold; text-align:left;color:#fb3f36; width:225px !important;}
+.DealBox .CouponTotalPrice .CouponDetailPrice{font-weight:normal;font-size:12px;padding:3px 10px 0;clear:both;display: block; text-shadow:0px 0px 0px #fff;}
+
+.DealBox ul.CouponSaving{list-style-type:none;margin:0 20px 12px 0;padding:0; display:inline-block; float:right;}
+.DealBox ul.CouponSaving li{margin:0;padding:0;display:block;float:none;color:#979797;font-size:12px;clear:both; font-weight:bold;}
+.DealBox ul.CouponSaving li span{margin:0;padding:0;display:block;color:#1b1b1b;font-size:18px;font-weight:bold;clear:both; font-weight:normal;}
+.DealBox ul.CouponSaving li p{margin:0;padding:0;display:block;color:#1b1b1b;font-size:12px; line-height:37px;clear:both;}
+
+.DealBox .TopBox{clear:both;color:#000000;float:left; margin:10px 20px; border-bottom:2px solid #000000; display:block; width:332px;height:172px;min-height:172px; overflow:hidden;}
+.DealBox .TopBox h1{
+	font-family: Helvetica,Arial;
+    font-size: 30px;
+    font-weight: bold;
+    height: 70px;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+.DealBox .TopBox p{
+    clear: both;
+    display: block;
+    float: left;
+    font-family: helvetica;
+    font-size: 13px;
+    height: 50px;
+    line-height: 18px;
+    min-height: 50px;
+    overflow: hidden;
+    padding: 10px 0;
+    width: 100%;
+}
+.DealBox .TopBox a.FinePrint{ float:right; font-size:10px; text-transform:uppercase;}
+
+.DealBox a.BuyButton{text-align:center;display:table;clear:both;width:162px;height:33px; margin:33px auto 0;}
+.left ul li a {
+    color: #BE1027;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.fine-print {
+    background-color: #00BCFF;
+    border-radius: 8px 8px 8px 8px;
+    color: #FFFFFF;
+    display: none;
+    margin-left: 7px;
+    margin-top: -68px;
+    padding: 10px;
+    position: absolute;
+    width: 318px;
+}
+ /******** Signin Page css *************/
+#login_form { padding: 10px 20px; }
+#login_form form { margin: 0px; padding: 0px; }
+#login_form .horizontalLine { width: 310px; height:6px; margin-top: 25px; margin-left:45px; margin-bottom:25px;  background:url(../images/horizontal_line.png);}
+#login_form form .input { margin-top: 5px; padding: 5px; width: 400px; font-family:Helvetica , Arial; font-size: 12px; color: #aaaaaa; height:10px; border: 1px solid #CCCCCC; }
+#login_form .for { padding: 1px 5px 5px 5px; width: 413px; font-family:Helvetica , Arial; font-size: 12px; color: #aaaaaa; background: transparent; border: 0px solid #3c3735; }
+#login_form label { display: block; width: 300px; margin-right: 10px; font-size: 12px; font-weight:bold; margin-top:20px; color: #000; margin-bottom:0px; }
+#login_form .ARegTxt { font-size: 20px; color: #BE1027; font-weight:bold; font-family:Helvetica , Arial; }
+#login_form .RedTxt { margin-left: 0px; font-size: 18px;  font-family:Helvetica , Arial; margin-top: 20px;  }
+#login_form .RedTxt a { color: #BE1027; font-family:Helvetica , Arial; text-decoration:none; font-size:12px; font-weight:bold; }
+#login_form .RedTxt a:hover { color: #555;  margin-top: 20px; }
+#login_form .PassRedTxt { font-size: 13px; color: #555; font-family:Helvetica , Arial; }
+#login_form .PassRedTxt a { font-size: 13px; color: #be1027; font-family:Helvetica , Arial; }
+#login_form .PassRedTxt a:hover { font-size: 13px; color: #555; font-family:Helvetica , Arial; }
+#login_form .SignRedTxt { font-size: 18px; color: #be1027; font-weight:bold; font-family:Helvetica , Arial; }
+#login_form .SignRedTxt { font-size: 18px; color: #be1027; font-weight:bold; font-family:Helvetica , Arial; }
+#login_form textarea { background: #13100F none repeat fixed 0 0; border: 1px solid #3c3735; display: block; font-family:Helvetica , Arial; font-size: 12px; color: #aaaaaa; height: 150px; margin-top: 5px; padding: 5px; width: 260px; }
+#login_form .submit_btns { width: 150px; height:37px; font-weight: bold; color: #fff; cursor: pointer; margin-top: 15px; font-family:Helvetica , Arial; font-size: 15px; background:url(../images/save_btn.png); }
+.col_w312 { width:425px; padding-right: 20px; margin: 50px 300px; }
+/******** About Us Page css ************/
+.BgBox { display:block; float:left; clear:left; width:1039px; margin:52px 0 0; background:url(../images/boxbg.png); height:439px; padding:10px; }
+
+.AboutBox { display:block; float: left; margin: 20px 115px 0; width: 750px;  text-align:justify;}
+.AboutBox   h1 { font-size: 20px; color: #BE1027; font-family:Helvetica , Arial; font-weight:bold; padding-bottom:20px; }
+.AboutBox p { font-size: 15px; color: #767474; font-family:Helvetica , Arial; line-height:23px;  }
+
+.TeamBox { display:block; float: left; margin: 5px; width: 900px;   }
+.TeamBox  a.TeamTxt { font-size: 18px; color: #BE1027; font-family:Helvetica , Arial; font-weight:bold; float:right;}
+.TeamBox  a.TeamTxt:hover { color: #555; }
+
+/******** Dashboard Page css ************/
+.DashBoardBox { display:block; float:left; clear:left; width:1039px; margin:0;
+/* background:url(../images/boxbg.png);*/ height:439px; padding:10px; }
+.DashBoardBox h1 { font-size: 14px; font-weight:bold; color: #a800c6; font-family:Helvetica , Arial; margin-left:25px; }
+.DashBox { display:block; float: left; margin: 3px 60px 20px 181px; width: 750px; }
+
+.DashBox  .DashBoxLeft{ display:block; float: left; margin: 4px 5px 5px; width: 127px; }
+.DashBox  .DashBoxLeft h1 { font-size: 24px; font-weight:bold; color: #a800c6; font-family:Helvetica , Arial;  text-align:center; margin:0px; line-height:23px; }
+.DashBox  .DashBoxLeft p { font-size: 12px; color: #000; font-family:Helvetica , Arial;  text-align:center; }
+.DashBox  .DashBoxLeft .buyer{ font-size: 12px; color: #000; font-family:Helvetica , Arial;  text-align:center; padding: 35px 0 10px; }
+
+.DashBox .DashBoxRight{ display:block; float: left; margin:4px 5px 5px 70px; width: 433px; }
+.DashBox .DashBoxRight .TxtSimple { font-size: 18px; color: #343434; font-weight:bold; font-family: Arial, Helvetica, sans-serif;  text-align:left; line-height:20px; min-height:36px; }
+.DashBox .DashBoxRight a.print { font-size: 15px; color: #000; font-family:Helvetica , Arial;  float:right;}
+.DashBox .DashBoxRight  a.print:hover { color: #555; }
+
+.DashBox .DashBoxRight hr {float:left; clear:both; color:#000; width:103%; margin-top: 4px; margin-bottom:3px; }
+
+.DashBox .DashBoxRight .PriceBoxesLeft {float:left; clear:both; color:#000; width:268px; margin-top: 10px; text-align:right; }
+.DashBox .DashBoxRight .PriceBoxesLeft  ul {float:right; font-size:13px; color:#555555; font-weight:bold; }
+.DashBox .DashBoxRight .PriceBoxesLeft ul li { display:inline-block;   }
+.DashBox .DashBoxRight .PriceBoxesLeft  ul li a { display:block; margin-left:0px; padding:2px; }
+.DashBox .DashBoxRight .PriceBoxesLeft  ul li a:hover {color: #bf1229; }
+.DashBox .DashBoxRight .PriceBoxesLeft  ul li a span{ color:#555555; font-weight:bold;  }
+.DashBox .DashBoxRight .PriceBoxesLeft a.BlackColor{ color:#000; font-weight:bold;  }
+.DashBox .DashBoxRight .PriceBoxesLeft a.BlackColor:hover{ color:#555; font-weight:bold;  }
+.DashBox .DashBoxRight .PriceBoxesLeft a.Redcolor{ color:#be1027; font-weight:bold;  }
+.DashBox .DashBoxRight .PriceBoxesLeft a.Redcolor:hover{ color:#555; font-weight:bold;  }
+.DashBox .DashBoxRight .PriceBoxesLeft a.Purplecolor{ color:#a800c6; font-weight:bold;  }
+.DashBox .DashBoxRight .PriceBoxesLeft a.Purplecolor:hover{ color:#555; font-weight:bold;  }
+
+.DashBox .DashBoxRight .PriceBoxesLeft span.BlackColor{ color:#000; font-weight:bold;  }
+.DashBox .DashBoxRight .PriceBoxesLeft span.Redcolor{ color:#be1027; font-weight:bold;  }
+.DashBox .DashBoxRight .PriceBoxesLeft span.Purplecolor{ color:#a800c6; font-weight:bold;  }
+
+.DashBox .DashBoxRight .PriceBoxesRight {float:right;  color:#000; width:150px; margin-top: 10px; text-align:center; }
+.DashBox .DashBoxRight .PriceBoxesRight  ul {font-size:13px; color:#555555; font-weight:bold; }
+.DashBox .DashBoxRight .PriceBoxesRight ul li { display:inline-block;   }
+.DashBox .DashBoxRight .PriceBoxesRight  ul li a { display:block; margin-left:0px; padding:2px; }
+.DashBox .DashBoxRight .PriceBoxesRight  ul li a:hover {color: #bf1229; }
+.DashBox .DashBoxRight .PriceBoxesRight  ul li a span{ color:#555555; font-weight:bold;  }
+.DashBox .DashBoxRight .PriceBoxesRight a.Redcolor{ color:#be1027; font-weight:bold;  }
+.DashBox .DashBoxRight .PriceBoxesRight a.Redcolor:hover{ color:#555; font-weight:bold;  }
+.DashBox .DashBoxRight .PriceBoxesRight a.Purplecolor{ color:#a800c6; font-weight:bold;  }
+.DashBox .DashBoxRight .PriceBoxesRight a.Purplecolor:hover{ color:#555; font-weight:bold;  }
+.DashBox .DashBoxRight .PriceBoxesRight a.BlackColor{ color:#000; font-weight:bold;  }
+.DashBox .DashBoxRight .PriceBoxesRight a.BlackColor:hover{ color:#555; font-weight:bold;  }
+
+.DashBox .DashBoxRight .PriceBoxesRight span.Redcolor{ color:#be1027; font-weight:bold;  }
+.DashBox .DashBoxRight .PriceBoxesRight span.Purplecolor{ color:#a800c6; font-weight:bold;  }
+.DashBox .DashBoxRight .PriceBoxesRight span.BlackColor{ color:#000; font-weight:bold;  }
+
+
+/******** Signin Page css *************/
+#login_form { padding: 10px 20px; }
+#login_form form { margin: 0px; padding: 0px; }
+#login_form .horizontalLine { width: 310px; height:6px; margin-top: 25px; margin-left:45px; margin-bottom:25px;  background:url(../images/horizontal_line.png);}
+#login_form form .input { margin-top: 0px; padding: 5px; width: 400px; font-family:Helvetica , Arial; font-size: 12px; color: #aaaaaa; height:15px; border: 1px solid #CCCCCC; }
+#login_form .for { padding: 1px 5px 5px 5px; width: 413px; font-family:Helvetica , Arial; font-size: 12px; color: #aaaaaa; background: transparent; border: 0px solid #3c3735; }
+#login_form label { display: block; width: 300px; margin-right: 10px; font-size: 12px; font-weight:bold; color: #000; margin-bottom:0px; padding-left:5px; }
+#login_form .ARegTxt { font-size: 20px; color: #BE1027; font-weight:bold; font-family:Helvetica , Arial;  }
+#login_form .RedTxt { margin-left: 0px; font-size: 18px;  font-family:Helvetica , Arial; margin-top: 20px;  }
+#login_form .RedTxt a { color: #BE1027; font-family:Helvetica , Arial; }
+#login_form .RedTxt a:hover { color: #555;  margin-top: 20px; }
+#login_form .PassRedTxt { font-size: 13px; color: #555; font-family:Helvetica , Arial; }
+#login_form .PassRedTxt a { font-size: 13px; color: #be1027; font-family:Helvetica , Arial; }
+#login_form .PassRedTxt a:hover { font-size: 13px; color: #555; font-family:Helvetica , Arial; }
+#login_form .SignRedTxt { font-size: 18px; color: #be1027; font-weight:bold; font-family:Helvetica , Arial; }
+#login_form .SignRedTxt { font-size: 18px; color: #be1027; font-weight:bold; font-family:Helvetica , Arial; }
+#login_form textarea { background: #13100F none repeat fixed 0 0; border: 1px solid #3c3735; display: block; font-family:Helvetica , Arial; font-size: 12px; color: #aaaaaa; height: 150px; margin-top: 5px; padding: 5px; width: 260px; }
+#login_form .submit_btns { width: 150px; height:37px; font-weight: bold; color: #fff; cursor: pointer; margin-top: 15px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size: 15px; background:url(../images/save_btn.png); }
+
+
+/******** Signin Page css *************/
+#Profile_form { padding: 10px 20px; }
+#Profile_form form { margin: 0px; padding: 0px; }
+
+#Profile_form .horizontalLine { width: 310px; height:6px; margin-top: 25px; margin-left:45px; margin-bottom:25px;  background:url(../images/horizontal_line.png);}
+#Profile_form form .input { margin:2px 0px 5px; padding: 5px; width: 325px; font-family:Helvetica , Arial; font-size: 12px; color: #aaaaaa;  border: 1px solid #CCCCCC; }
+#Profile_form form .inputSmall { margin:2px 0px 5px; padding: 5px; width: 150px; font-family:Helvetica , Arial; font-size: 12px; color: #aaaaaa; border: 1px solid #CCCCCC; }
+#Profile_form form .inputSmallS { margin:2px 0px 5px; padding: 5px; width: 80px; font-family:Helvetica , Arial; font-size: 12px; color: #aaaaaa; border: 1px solid #CCCCCC; }
+#Profile_form .for { padding: 1px 5px 5px 5px; width: 340px; font-family:Helvetica , Arial; font-size: 12px; color: #aaaaaa; background: #fff none repeat fixed 0 0; border: 0px solid #3c3735; }
+#Profile_form label { display: block; width: 300px; font-weight:bold; margin-right: 10px; font-size: 12px; color: #000; margin-bottom:0px; }
+#Profile_form .labelSmall { display: block; width: 120px; margin-right: 10px; font-size: 12px; color: #000; margin-bottom:0px; }
+#Profile_form .labelSmallST { display: block; width: 60px; margin-right: 10px; font-size: 12px; color: #000; margin-bottom:0px; }
+#Profile_form .labelSmallZIP { display: block; width: 90px; margin-right: 10px; font-size: 12px; color: #000; margin-bottom:0px; }
+#Profile_form .ARegTxt { font-size: 20px; color: #BE1027; font-weight:bold; font-family:Helvetica , Arial; margin-bottom:47px; }
+#Profile_form .RedTxt { margin-left: 0px; font-size: 18px;  font-family:Helvetica , Arial; margin-top: 20px;  }
+#Profile_form .RedTxt a { color: #BE1027; font-family:Helvetica , Arial; }
+#Profile_form .RedTxt a:hover { color: #555;  margin-top: 20px; }
+#Profile_form .PassRedTxt { font-size: 13px; color: #555; font-family:Helvetica , Arial; }
+#Profile_form .PassRedTxt a { font-size: 13px; color: #be1027; font-family:Helvetica , Arial; }
+#Profile_form .PassRedTxt a:hover { font-size: 13px; color: #555; font-family:Helvetica , Arial; }
+#Profile_form .SignRedTxt { font-size: 18px; color: #be1027; font-weight:bold; font-family:Helvetica , Arial; }
+#Profile_form .SignRedTxt { font-size: 18px; color: #be1027; font-weight:bold; font-family:Helvetica , Arial; }
+#Profile_form textarea { background: #13100F none repeat fixed 0 0; border: 1px solid #3c3735; display: block; font-family:Helvetica , Arial; font-size: 12px; color: #aaaaaa; height: 150px; margin-top: 5px; padding: 5px; width: 260px; }
+#Profile_form .update_btns { width: 103px; height:37px; font-weight: bold; color: #fff; cursor: pointer; margin-top: 75px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size: 15px; background:url(../images/update_btn.png);margin-right:25px; }
+#Profile_form .col_w310 { width: 360px; padding-right: 65px; margin: 30px 0 30px 100px; background: url(../images/line.png) right no-repeat; height:305px; }
+#Profile_form .col_w311 { width: 360px; padding-right: 20px; margin: 30px 0 15px 85px; }
+#Profile_form .col_w5 { width: 165px; float:left; margin-right:10px; }
+#Profile_form .col_w6 { width: 115px; float:left; margin-right:5px; }
+
+/******** Team Page css ************/
+
+.OurTeamBox { display:block; float: left; margin: 20px 115px 0; width: 750px;  text-align:justify;}
+.OurTeamBox   h1 { font-size: 20px; color: #BE1027; font-family:Helvetica , Arial; font-weight:bold; padding-bottom:20px; }
+.OurTeamBox p { font-size: 15px; color: #767474; font-family:Helvetica , Arial;  }
+.hint{color:#B0ADAC; font-size:10px; display:block; text-align:right}
+.OurTeamBox  ul {font-size:13px; color:#555555; font-weight:bold; }
+.OurTeamBox ul li { display:inline-block;   }
+.OurTeamBox ul li a { display:block; margin-left:0px; padding:2px; }
+.OurTeamBox ul li a:hover {color: #bf1229; }
+.OurTeamBox ul li a span{ color:#555555; font-weight:bold;  }
+
+/* ****************************** TEAM Tabs CSS Start ******************************** */
+.OurTeamBox ul.tabs
+{
+    padding: 7px 0;
+    font-size: 0;
+    margin:0;
+    list-style-type: none;
+	height:102px;
+    text-align: center; /*set to left, center, or right to align the tabs as desired*/
+	width:100%;
+}       
+.OurTeamBox ul.tabs li
+{
+    list-style:none; opacity:0.6; font-family:Helvetica; font-size:14px; color:#b0adac; display:inline-block; text-transform:capitalize; width:105px; margin:0px 0px 0px 15px; padding:0px 0px 7px;text-align:center; float:left;
+    /*margin-right:3px;*/ /*distance between tabs*/
+}       
+.OurTeamBox ul.tabs li a
+{
+    position: relative;
+    z-index: 1;
+    text-decoration:none; 
+	color:#b0adac; 
+	font-size:12px;
+	font-weight:bold; 
+	text-align:center;
+    outline:none;
+}        
+.OurTeamBox ul.tabs li a:visited
+{
+	text-decoration:underline;
+}      
+.OurTeamBox ul.tabs li a:hover
+{
+	color:#000;
+}
+.OurTeamBox ul.tabs li.selected{
+	border-bottom:none !important; opacity:1; 
+}     
+.OurTeamBox ul.tabs li.selected a
+{
+    /*selected tab style */
+    position: relative;
+    top: 0px;
+	color:#000;
+}              
+.OurTeamBox ul.tabs li.selected a:hover
+{
+    /*selected tab style */
+	color:#000;
+}       
+.TeamContainer{
+	width:715px;
+	padding:0px;
+	margin:0 auto;	
+}
+.TeamContainer h3 {
+    display: block;
+    font-size: 16px;
+    padding: 9px 0 0;
+    text-align: left;
+}
+.TeamContainer p {
+    margin: 18px 0;
+	display:block;
+}
+/* ****************************** TEAM Tabs CSS End ******************************** */
+
+/******** Thank you Page css ************/
+.thankBox   h1 { font-size: 25px; color: #BE1027; font-family:Helvetica , Arial; font-weight:bold; padding:180px 50px; }
+.remember{
+	float: left;
+    font-size: 12px;
+    margin: 0px 0 0px 6px;
+    width: 400px;
+}
+.remember span{
+	padding:0px 0px 0px 5px;
+}
+.errorSummary p{ font-size:12px; font-weight:bold; }
+
+.errorSummary ul li{ font-size:12px; padding:1px; }
+.errors{ background: #DDD; /*url("../images/create_a_deal_mbg.png");*/ position:absolute; top:50px; border:1px solid #CCC; padding:20px; top:220px; width:550px; margin-left:20px; z-index:1000;}
+.flash-success{ color:#be1027; font-family: Helvetica,Arial;
+    font-size: 15px;
+    font-weight: bold;}
+.errors .close{  position:relative; left:535px; top:-18px; color:#FF0000;}
+.cheading{ height:70px; width:292px; font-family: Helvetica,Arial;
+    font-size: 30px;
+    font-weight: bold;
+     overflow: hidden;
+	 height:70px;
+	 max-height:70px;
+    text-transform: uppercase;}
+
+.cheadingdeal{ height:50px; width:450px; 
+    font-size: 18px;
+    font-weight: bold;
+     overflow: hidden;
+	 height:40px;
+	 max-height:40px;
+    }
+
+
+.btn_back{
+background: none repeat scroll 0 0 #CE2A20;
+    border: 1px solid #CE2A20;
+    border-radius: 7px 7px 7px 7px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 7px 19px;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #CE2A20;
+	float:left;
+	margin-top:20px;
+	text-transform: uppercase;
+
+}
+.btn_next{
+background: none repeat scroll 0 0 #CE2A20;
+    border: 1px solid #CE2A20;
+    border-radius: 7px 7px 7px 7px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 7px 19px;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #CE2A20;
+	margin-top:20px;
+	float:right;
+	text-transform: uppercase;
+	
+}
+
+a.PurpleLink{ color:#a800c6 !important; font-weight:bold; padding-top:20px !important; display:block; text-decoration:underline !important; font-size:14px;  }
+a.PurpleLink:hover{ text-decoration:none !important;}
+
+.faqKarmio{
+float:left;
+width:48%;
+text-decoration:none;
+list-style:none;
+color:#BE1027 !important;
+font-weight:bold;
+}
+.faqNFG{
+float:right;
+width:48%;
+text-decoration:none;
+list-style:none;
+color:#004990 !important;
+font-weight:bold;
+}
+
+.qblue{color:#004990 !important; font-weight:bolder;}
+.qred{color:#BE1027 !important; font-weight:bolder;}
+
+.qbtop{color:#004990 !important; float:right; font-weight:bolder;}
+.qrtop{color:#BE1027 !important; float:right; font-weight:bolder;}
+
+.faq-page{height: 309px;
+    overflow: auto;}
+.NetworkGoodLogo {
+      background: url("../images/nfg_logo.gif") no-repeat scroll center top transparent;
+    float: right;
+    font-size: 12px;
+    height: 40px;
+    line-height: 80px;
+    margin-top: -10px;
+    text-align: center;
+    width: 143px;
+}	
+.NetworkGoodLogo a{color: #BE1027;}

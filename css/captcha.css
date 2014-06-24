@@ -1,0 +1,31 @@
+img#yw0, img#yw1  {
+    display: block;
+    float: left;
+}
+
+a#yw0_button {
+    display: block;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 6px;
+}
+
+ a#yw1_button  {
+    display: block;
+    float: left;
+}
+
+input#User_captcha_code {
+    display: block;
+    float: left;
+    width: 213px !important;
+    margin-left: 30px;
+}
+
+input#LoginForm_verifyCode  {
+    display: block;
+    float: left;
+    width: 213px !important;
+    margin-left: 150px;
+    margin-top: -27px;
+}

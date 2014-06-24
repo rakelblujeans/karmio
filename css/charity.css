@@ -1,0 +1,101 @@
+/* CSS Document */
+
+
+
+/*********SADIA GULZAR 02-22-2012 sadiagulzar.vu@gmail.com**********/
+
+input[type='text'],input[type='password'],textarea,select{color:#000000 !important;}
+
+*{ margin:0 0 0 0; padding:0 0 0 0;}
+
+
+
+
+
+
+
+/******************charity page css*****************/
+
+.CharityBox{/*width:1000px;height:460px;float:left;display:block;clear:both;border-radius:10px;
+
+padding:15px 15px 15px 15px;background-color:#FFFFFF;*/}
+
+.CharityBox .bg-mid{height:410px;position: relative;z-index: 5;}
+
+.CharityBox .DealBox{margin:-67px 0 70px;}
+
+.CharityBox .DealBox .DealBoxMid{min-height: 100px;}
+
+
+
+.CharitySearch{ width:240px; float:left;background:url(../images/SearchBoxLine.png) repeat-y top right;
+
+ padding:50px 15px 15px 30px; height:439px;margin-top: -35px;}
+
+.CharitySearch .SearchHeading{text-align:center; font-size:16px; font-weight:bold; text-transform:uppercase;
+
+display:block;clear:both; margin-bottom:15px; margin-top: 25px;}
+
+.CharitySearch .SearchTextBox{padding:3px 5px 3px 5px;margin: 0 auto;text-align:left;width:205px; height:18px;display:block;
+
+clear:both; background:#FFFFFF; margin-bottom:12px;float: left; border:1px solid #cccccc; }
+
+.CharitySearch .CategorySelect{padding:3px 5px 3px 5px;margin:0 10px 0 0;float:left;border:1px solid #cccccc;
+
+width:158px; height:26px;}
+
+.CharitySearch .CategoryTextBox{padding:3px 5px 3px 5px;float:left;text-align:center;width:35px; height:18px; background:#ffffff;border:1px solid #cccccc;}
+
+.SearchButton{background:url(../images/SearchButton_dark.png) no-repeat;display:inline; width:72px; height:26px;
+
+clear:both; margin-top:18px; margin-left:65px;}
+
+.SearchOR{ text-align:center;float:left;display:block; clear:both; margin-top:45px;}
+
+.SearchCheckout{background:url(../images/SearchCheckout.png) no-repeat;display:inline; width:188px; height:26px; margin-left:10px;
+
+clear:both; margin-top:60px;clear:both;}
+
+.SearchResults{ text-align:center;float:left;display:block; clear:both; margin-top:80px;}
+
+.SearchCross{ float:left; width:19px; height:19px;margin: -30px 0 0 -20px;}
+
+
+
+.SearchResult{ width:310px; float:left;
+
+ padding:0 15px 15px 20px; height:439px;margin-top: -35px;}
+
+.SearchResult .ResultHeading{text-align:center; font-size:16px; font-weight:bold; text-transform:uppercase;
+
+display:block;clear:both; margin-bottom:15px; margin-top: 25px;}
+
+.Pagination{display:block;clear:both;margin-top:20px;}
+
+.PageResults{font-size:14px; font-weight:bold; text-transform:uppercase;float:left; width:160px;}
+
+.PageNumbers{font-size:14px; font-weight:bold; text-transform:uppercase;float:right;}
+
+.PageNumbers a{ text-decoration:none; color:#000000; margin:2px;}
+
+.ResultList{ list-style-type:none;display:block;clear:both; margin:30px 0 0 0;float: left;width: 100%;}
+
+.ResultList li{ list-style-type:none;display:block;clear:both; margin:5px 0; padding:0; float:left; width: 100%;line-height: 18px;}
+
+.ResultList li p{font-size:14px; font-weight:bold; float:left;clear:both; width:280px; color:#be1027; text-align:left}
+
+.ResultList li p span{font-size:14px; font-weight:bold;clear:both; color:#a4a4a4; display:block;}
+
+.ResultList li input{ float:right;}
+
+#advanced{color:#FFFFFF; font-size:14px; font-weight:bold; float:left;}
+
+.LogBoxes input, select, textarea { font-size:12px; font-weight:normal;}
+
+#SearchResult{width:310px;}
+
+
+
+#mycharitylogo img{
+box-shadow: 5px 5px 5px #888888;
+}

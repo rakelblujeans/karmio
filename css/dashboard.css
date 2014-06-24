@@ -1,0 +1,328 @@
+/* CSS Document */
+
+
+
+/* CSS Document */
+
+BODY{
+
+	background-color:#fff;
+
+	height: auto;
+
+	margin:0 auto;
+
+	padding:0px;
+
+    width: 870px;
+
+	font-family:Helvetica,sans-serif;
+
+}
+
+.BGContainer{
+
+	background-color:transparent;
+
+	width:850px;
+
+	float:left;
+
+	margin-bottom:30px;
+
+}
+
+.User_Dashboard{
+
+	width:629px;
+
+	float:left;
+
+	margin:0 122px;
+
+}
+
+.User_Dashboard .Coupon_Info{
+
+	font-size:14px;
+
+	color:#00beff;
+
+	font-weight:normal;
+
+	text-transform:uppercase;
+
+	margin:10px 10px 10px 10px;
+
+	
+
+}
+
+.User_Dashboard .Coupon_Info h2{
+
+	color:#FFFFFF;
+
+	font-weight:bold;
+
+	font-size:14px;
+
+	margin:0px;
+
+	padding:0px;
+
+	display:block;
+
+}
+
+.User_Dashboard .Coupon_Info h3{
+
+	font-size:14px;
+
+	color:#d0d1d1;
+
+	font-weight:normal;
+
+	margin:0px;
+
+	padding:0px;
+
+	display:block;
+
+}
+
+.User_Dashboard .Coupon_Info .ConBox{
+
+	width:150px;
+
+	float:left;
+
+	font-family:Helvetica,sans-serif;
+
+}
+
+.User_Dashboard .Coupon_Box{
+
+	background-color:#FFF;
+
+	width:626px;
+
+	border-radius:8px;
+
+	padding:0px;
+
+	float:left;
+
+	font-family:Helvetica,sans-serif;
+
+}
+
+.User_Dashboard .Coupon_Box .Top_Content{
+
+/*	padding:7px 15px;*/     /*   Chnaged on 1/21/2013 as client wants vertically aligned and centered Price*/
+
+	padding:7px 2px 7px 15px;
+
+	float:left;
+
+	font-family:Helvetica,sans-serif;
+
+}
+
+.User_Dashboard .Coupon_Box .Top_Content .Cont_Left{
+
+	width:433px;
+
+	float:left;
+
+}
+
+.User_Dashboard .Coupon_Box .Top_Content .Cont_Left h1{
+
+	color:#343434;
+
+	font-size:18px;
+
+	padding:0px;
+
+	font-weight:bold;
+
+	text-transform:capitalize;
+
+	margin:0px;
+
+	border-bottom:2px solid #000;
+
+	display:block;
+
+}
+
+.User_Dashboard .Coupon_Box .Top_Content .Cont_Left a{
+
+	float:left;
+
+	display:block;
+
+	width:50px;
+
+}
+
+.User_Dashboard .Coupon_Box .Top_Content .Cont_Left p{
+
+	float:left;
+
+	display:block;
+
+	font-size:12px;
+
+	color:#000;
+
+	line-height:18px;
+
+	font-family:Helvetica,sans-serif;
+
+	}
+
+.User_Dashboard .Coupon_Box .Top_Content .Cont_Left img{
+
+    margin: 15px 0;
+
+}
+
+.User_Dashboard .Coupon_Box .Top_Content .Cont_Right{
+
+	color: #FB3F36;
+	
+    display: table;
+	
+    float: left;
+	
+    font-family: Helvetica,sans-serif;
+	
+    font-size: 12px;
+	
+    font-weight: normal;
+	
+    height: 88px;
+	
+    vertical-align: middle;
+	
+/*    width: 160px;*/
+	width:175px;
+
+}
+/****************************************************  New Div Added to Dashboard Coupon on 1-21-2013 ********************************************************/
+.MdlRigt {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+/**************************************************************************************************************************************************************/
+.User_Dashboard .Coupon_Box .Top_Content .Cont_Right h1{
+
+	font-size:30px;
+
+	font-weight:bold;
+
+	margin:0px;
+
+	padding:0px;
+
+	color:#fb3f36;
+
+}
+
+.User_Dashboard .Coupon_Box .HorizontalRibbon{
+
+	background-image:url(../images/white_border_horizontal.png);
+
+	background-repeat:repeat-x;
+
+	background-position:top;
+
+	background-color:#f23d34;
+
+	border-radius:0px 0px 8px 8px;
+
+	width:626px;
+
+	padding:20px 0 7px;
+
+	text-align:right;
+
+	float:left;
+
+	color:#FFFFFF;
+
+	font-size:16px;
+
+	font-weight:normal;
+
+	font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.User_Dashboard .Coupon_Box .HorizontalRibbon h1{
+
+	color: #FFFFFF;
+
+    /*display: inline-block;*/
+	display:table-cell;
+
+    font-size: 30px;
+
+    font-weight: bold;
+
+    margin: 0 20px 0 0;
+
+    padding: 0;
+
+    text-align: center !important;
+
+    vertical-align: middle !important;
+
+    width: 175px;
+
+}
+
+
+
+.User_Dashboard .Coupon_Box .HorizontalRibbon p {
+
+    float: none;
+margin: 0;
+padding: 0px 0 0 15px;
+width: 433px;
+display: table-cell;
+vertical-align: middle;
+
+}
+
+.User_Dashboard .Coupon_Footer{
+
+	float:left;
+
+	margin:7px 15px;
+
+	font-family:Helvetica,sans-serif;
+
+}
+
+.User_Dashboard .Coupon_Footer a{
+
+	color:#00beff;
+
+	text-transform:uppercase;
+
+	font-weight:normal;
+
+	font-size:14px;
+
+	text-decoration:none;
+
+}
+
+.User_Dashboard .Coupon_Footer a:hover{
+
+	color:#FFFFFF;
+
+}

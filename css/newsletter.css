@@ -1,0 +1,124 @@
+.HundredPercent {
+    font-family:Helvetica;
+    width:100%; float:left;
+}
+    
+#HomePage {
+    padding:37px 0 0;
+}
+.videodiv {
+    min-height:200px; 
+}
+.iframestyle {
+    border-radius:15px;
+    moz-border-radius:15px;
+    webkit-border-radius:15px;
+    width:573px; height:321px;
+}
+#vvideo {
+    display:none;
+    width:573px;
+    height:321px;
+    background:url(../images/video_bg.png);
+}
+#vtext {
+    background:url(../images/video_bg.png);
+    width:473px;
+    height:271px;
+    padding:25px 50px;
+}
+#vheading {
+    color:#be1027;
+    font-size:34px;
+    font-weight:bold;
+    margin-top:20px;
+    text-align:left;
+    padding:20px
+}
+#vheadingFake {
+    color:#ffffff;
+    font-size:22px;
+    font-weight:bold;
+    margin-top:20px;
+    text-align:left;
+    padding:20px
+}
+#play_link {
+    color:#c62f43;
+    font-size:24px;
+    text-align:right
+}
+#how {
+    position:relative;
+    top:-44px;
+}
+
+.nlbutton {
+    display: block;
+    background-image: url("../images/nl_btns_bg.png");
+    background-repeat: no-repeat;
+    color: white;
+    cursor: pointer;
+    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    height: 37px;
+    margin-top: 15px;
+    width: 190px;
+}
+
+.nlbtnsmall {
+    width: 103px;
+    background-image: url(../images/form_btns.png);
+}
+
+a.nlbutton:hover, a.nlbutton:active, a.nlbutton:link, a.nlbutton:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-top: 9px;
+}
+
+#nlEmailFieldContainer {
+width: 89% !important;
+}
+
+.nltextfield {
+    width: 60%;
+    height: 25px;
+    margin: 5px 0;
+    font-size: 14px;
+    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+    padding: 5px;
+    border: 1px solid #CCCCCC;
+    color: #AAAAAA;
+}
+
+#bbtn{width: 420px;
+height: 50px;
+padding-bottom:4px;
+font-weight: bold;
+color: rgb(255, 255, 255);
+border-radius:5px;
+moz-border-radius:5px;
+webkit-border-radius:5px;
+cursor: pointer;
+margin-top: 15px;
+background:#be1027;
+font-size:26px;
+font-family:Helvetica;
+}
+
+.nlSubscribeBtn {
+width: 89% !important;
+}
+
+#NewsletterForm_email {
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 2px 5px #CECECE inset;
+    color: #000000 !important;
+    font-size: 22px;
+    padding: 11px 0;
+    text-align: center;
+    width: 99%;
+    margin: 0 auto;
+}
